@@ -64,9 +64,6 @@ inputs:
       table: demo_rs_tracks
       #      occurred_at_col: timestamp
       ids:
-        - select: "user_id"
-          type: user_id
-          entity: user
         - select: "anonymous_id"
           type: anonymous_id
           entity: user
