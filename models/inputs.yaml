@@ -58,7 +58,6 @@ inputs:
         - user
       with_columns:
         - name: timestamp
-        - name: user_id
         - name: anonymous_id
     app_defaults:
       table: demo_rs_tracks
