@@ -1,0 +1,51 @@
+# Project name
+name: sample_attribution
+# Project's yaml schema version
+schema_version: 69
+# WH Connection to use.
+connection: test
+# Model folders to use.
+model_folders:
+  - models
+# Entities in this project and their ids.
+
+# The id types are inherited from the library package listed below.
+#  To add / extend filters, check out the section on extends in id_types in documentation.
+entities:
+  - name: user
+    id_stitcher: models/user_id_stitcher
+    id_types:
+      - user_id
+      - temp_id
+      - anonymous_id
+      - email
+    feature_views:
+      using_ids:
+        - id: user_id
+          name: features_by_user_id
+        - id: email
+          name: email_stitched_features
+#  - name: hcp
+#    id_stitcher: models/hcp_id_stitcher
+#    id_types:
+#      - npi_id
+#      - doceree_cookies_id
+#      - dg_id
+
+id_types:
+  - name: user_id
+  - name: anonymous_id
+  - name: email
+  - name: temp_id
+    filters:
+      - type: exclude
+        value: "someexcludedvalue"
+# lib packages can be imported in project signifying that this project inherits its properties from there
+#packages:
+#  - name: corelib
+#    url: "https://github.com/rudderlabs/rudderstack-profiles-corelib/tag/schema_{{best_schema_version}}"
+
+# In the url https://github.com/rudderlabs/rudderstack-profiles-corelib/tag/schema_{{best_schema_version}}, {{best_schema_version}} is
+#  a placeholder. The program will figure out the best compatible version.
+# In case you want to check the code in the library, please go to https://github.com/rudderlabs/rudderstack-profiles-corelib/tags
+#  and find the closest tag with version number <= to current schema version
