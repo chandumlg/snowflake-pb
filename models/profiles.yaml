@@ -1,4 +1,3 @@
-# This is a sample file, for detailed reference see: https://rudderlabs.github.io/pywht/
 models:
   - name: user_id_stitcher
     model_type: id_stitcher
@@ -8,28 +7,15 @@ models:
       edge_sources:
         - from: inputs/rsIdentifies
         - from: inputs/rsTracks
-
-#  - name: hcp_id_stitcher
-#      model_type: id_stitcher
-#      model_spec:
-#        validity_time: 24h
-#        entity_key: hcp
-#        edge_sources:
-#          - from: inputs/DMDInfo
-#          - from: inputs/LiveIntent
-#          - from: inputs/Throttle
-#          - from: inputs/DMDValidateHCP
-#          - from: inputs/ADRequest # Can be omitted if we don't want profiles with only cookie ID
-
-#  - name: user_profile
-#    model_type: feature_table_model
-#    model_spec:
-#      validity_time: 24h # 1 day
-#      entity_key: user
-#      features:
-#        - user_lifespan
-#        - days_active
-
+  - name: users_with_valid_email
+    model_type: entity_cohort
+    model_spec:
+      extends: user/all
+      filter_pipeline:
+        - type: exclude
+          value: "{{ user.Var('id_email_em2_count')}} >= 1"
+      # feature_views:
+      #   name: users_with_valid_email_feature_view
 var_groups:
  - name: default_vars
    entity_key: user
@@ -53,3 +39,7 @@ var_groups:
          select: count(distinct cast(timestamp as date))
          from: inputs/rsTracks
          description: No. of days a customer was active
+     - entity_var:
+          name: id_email_em2_count
+          from: models/user_id_stitcher
+          select: sum(case when other_id_type = 'email' and other_id='em2@e.com' then 1 else 0 end)

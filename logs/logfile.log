@@ -1,0 +1,1650 @@
+2024-08-27T13:26:53.015-0500	ERROR	validate/access.go:32	creating project api: loading project: could not create project: failed to read project yaml 
+Error: this version of PB works with schema version 72, got 71. please migrate the project to latest version
+
+2024-08-27T13:27:16.916-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:27:16.927-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:27:16.957-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:27:23.544-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 1'.
+
+2024-08-27T13:27:23.892-0500	INFO	api/validate.go:44	Checking required schema access
+
+2024-08-27T13:27:24.117-0500	INFO	api/validate.go:71	Accessing all models
+
+2024-08-27T13:27:24.118-0500	INFO	api/validate.go:83	Checking required access for creating UDFs
+
+2024-08-27T13:27:24.118-0500	INFO	api/validate.go:108	Checking required access to inputs for models
+
+2024-08-27T13:27:26.303-0500	INFO	api/validate.go:120	All required access are available
+
+2024-08-27T13:27:26.304-0500	INFO	api/validate.go:121	Connection environment: dev have all the required read/write privileges
+
+2024-08-27T13:38:17.313-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:38:17.324-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:38:17.353-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:38:20.934-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 2'.
+
+2024-08-27T13:40:40.015-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:40:40.027-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:40:40.055-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:40:40.077-0500	INFO	api/show.go:100	Printing models
+
+2024-08-27T13:42:51.255-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:42:51.265-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:42:51.295-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:42:54.761-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 3'.
+
+2024-08-27T13:43:25.881-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:43:25.892-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:43:25.921-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:43:25.941-0500	INFO	api/show.go:100	Printing models
+
+2024-08-27T13:43:31.092-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:43:31.102-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:43:31.133-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:43:32.961-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 3'.
+
+2024-08-27T13:43:34.184-0500	INFO	api/utils.go:39	Printing output
+
+2024-08-27T13:43:41.929-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:43:41.938-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:43:41.966-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:43:43.843-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 3'.
+
+2024-08-27T13:43:44.914-0500	INFO	api/utils.go:39	Printing output
+
+2024-08-27T13:44:20.344-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:44:20.353-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:44:20.383-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:44:20.403-0500	INFO	api/show.go:350	creating graph
+
+2024-08-27T13:44:20.430-0500	INFO	visualisation/dag.go:126	created PNG file: dependencies.png
+
+2024-08-27T13:45:08.859-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:45:08.881-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:45:08.924-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:45:08.953-0500	INFO	api/show.go:100	Printing models
+
+2024-08-27T13:46:04.180-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:46:04.203-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:46:04.248-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:46:06.312-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 3'.
+
+2024-08-27T13:46:07.443-0500	INFO	api/utils.go:39	Printing output
+
+2024-08-27T13:46:10.499-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:46:10.523-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:46:10.566-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:46:13.112-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 4'.
+
+2024-08-27T13:46:20.596-0500	INFO	base/model.go:711	Compiled material. Material_rsTracks_var_table_e3351b8c_4 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/4/compile. 
+
+
+2024-08-27T13:46:20.602-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:46:20.609-0500	INFO	base/model.go:711	Compiled material. Material_user_default_id_stitcher_1551cc21_4 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/4/compile. 
+
+
+2024-08-27T13:46:20.610-0500	INFO	base/model.go:711	Compiled material. Material_user_all_e99cb381_4 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/4/compile. 
+
+
+2024-08-27T13:46:20.615-0500	INFO	base/model.go:711	Compiled material. Material_user_main_id_5f04745a_4 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/4/compile. 
+
+
+2024-08-27T13:46:20.616-0500	INFO	base/model.go:711	Compiled material. Material_user_var_table_9f95e1be_4 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/4/compile. 
+
+
+2024-08-27T13:46:20.622-0500	INFO	base/model.go:711	Compiled material. Material_days_active_74aa05e9_4 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/4/compile. 
+
+
+2024-08-27T13:46:20.626-0500	INFO	base/model.go:711	Compiled material. Material_last_seen_7b92241d_4 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/4/compile. 
+
+
+2024-08-27T13:46:20.629-0500	INFO	base/model.go:711	Compiled material. Material_first_seen_8ee49199_4 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/4/compile. 
+
+
+2024-08-27T13:46:20.632-0500	INFO	base/model.go:711	Compiled material. Material_user_lifespan_5b965bef_4 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/4/compile. 
+
+
+2024-08-27T13:46:21.292-0500	INFO	base/material.go:740	Preparing material Material_rsTracks_var_table_e3351b8c_4
+
+2024-08-27T13:46:21.733-0500	INFO	base/material.go:822	Running material Material_rsTracks_var_table_e3351b8c_4
+
+2024-08-27T13:46:24.404-0500	INFO	base/material.go:881	Material Material_rsTracks_var_table_e3351b8c_4 ran in 2.670567667s
+
+2024-08-27T13:46:25.744-0500	INFO	base/material.go:740	Preparing material Material_user_default_id_stitcher_1551cc21_4
+
+2024-08-27T13:46:26.511-0500	INFO	base/material.go:822	Running material Material_user_default_id_stitcher_1551cc21_4
+
+2024-08-27T13:46:26.517-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T13:46:44.791-0500	INFO	base/material.go:881	Material Material_user_default_id_stitcher_1551cc21_4 ran in 18.279324375s
+
+2024-08-27T13:46:46.507-0500	INFO	base/material.go:740	Preparing material Material_user_all_e99cb381_4
+
+2024-08-27T13:46:47.243-0500	INFO	base/material.go:822	Running material Material_user_all_e99cb381_4
+
+2024-08-27T13:46:48.377-0500	INFO	base/material.go:881	Material Material_user_all_e99cb381_4 ran in 1.133229833s
+
+2024-08-27T13:46:50.272-0500	INFO	base/material.go:740	Preparing material Material_user_main_id_5f04745a_4
+
+2024-08-27T13:46:51.780-0500	INFO	base/material.go:822	Running material Material_user_main_id_5f04745a_4
+
+2024-08-27T13:46:56.755-0500	INFO	base/material.go:881	Material Material_user_main_id_5f04745a_4 ran in 4.974761542s
+
+2024-08-27T13:46:58.258-0500	INFO	base/material.go:740	Preparing material Material_user_var_table_9f95e1be_4
+
+2024-08-27T13:46:58.818-0500	INFO	base/material.go:822	Running material Material_user_var_table_9f95e1be_4
+
+2024-08-27T13:47:00.502-0500	INFO	base/material.go:881	Material Material_user_var_table_9f95e1be_4 ran in 1.682550333s
+
+2024-08-27T13:47:02.743-0500	INFO	base/material.go:740	Preparing material Material_last_seen_7b92241d_4
+
+2024-08-27T13:47:04.712-0500	INFO	base/material.go:822	Running material Material_last_seen_7b92241d_4
+
+2024-08-27T13:47:09.266-0500	INFO	base/material.go:881	Material Material_last_seen_7b92241d_4 ran in 4.553699875s
+
+2024-08-27T13:47:10.856-0500	INFO	base/material.go:740	Preparing material Material_first_seen_8ee49199_4
+
+2024-08-27T13:47:13.313-0500	INFO	base/material.go:822	Running material Material_first_seen_8ee49199_4
+
+2024-08-27T13:47:18.260-0500	INFO	base/material.go:881	Material Material_first_seen_8ee49199_4 ran in 4.946848s
+
+2024-08-27T13:47:20.437-0500	INFO	base/material.go:740	Preparing material Material_days_active_74aa05e9_4
+
+2024-08-27T13:47:22.222-0500	INFO	base/material.go:822	Running material Material_days_active_74aa05e9_4
+
+2024-08-27T13:47:26.933-0500	INFO	base/material.go:881	Material Material_days_active_74aa05e9_4 ran in 4.710958541s
+
+2024-08-27T13:47:28.569-0500	INFO	base/material.go:740	Preparing material Material_user_lifespan_5b965bef_4
+
+2024-08-27T13:47:30.218-0500	INFO	base/material.go:822	Running material Material_user_lifespan_5b965bef_4
+
+2024-08-27T13:47:34.798-0500	INFO	base/material.go:881	Material Material_user_lifespan_5b965bef_4 ran in 4.579785875s
+
+2024-08-27T22:03:00.940-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:03:00.965-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:03:01.007-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:03:07.946-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 5'.
+
+2024-08-27T22:03:09.252-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: hour}}
+
+2024-08-27T22:03:10.206-0500	INFO	retention/cleanup.go:140	18 material run results found
+
+2024-08-27T22:03:10.206-0500	INFO	retention/cleanup.go:154	18 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: hour}}
+
+2024-08-27T22:03:30.305-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: hour}}
+
+2024-08-27T22:03:30.423-0500	INFO	retention/cleanup.go:140	18 material run results found
+
+2024-08-27T22:03:30.423-0500	INFO	retention/cleanup.go:154	18 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: hour}}
+
+2024-08-27T22:03:30.423-0500	INFO	retention/cleanup.go:84	starting to run purge
+
+2024-08-27T22:03:30.541-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_4 }
+
+2024-08-27T22:03:31.100-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_4 }
+
+2024-08-27T22:03:31.528-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_4 }
+
+2024-08-27T22:03:31.682-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_4_INTERNAL_EDGES }
+
+2024-08-27T22:03:31.808-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_4_INTERNAL_MAPPING }
+
+2024-08-27T22:03:32.558-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_4 }
+
+2024-08-27T22:03:32.647-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_4_INTERNAL_EDGES }
+
+2024-08-27T22:03:32.729-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_4_INTERNAL_MAPPING }
+
+2024-08-27T22:03:33.134-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_4 }
+
+2024-08-27T22:03:33.849-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_4 }
+
+2024-08-27T22:03:37.213-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_4 }
+
+2024-08-27T22:03:38.059-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_4 }
+
+2024-08-27T22:03:47.701-0500	INFO	retention/cleanup.go:103	purging complete
+
+2024-08-27T22:06:18.892-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:06:18.915-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:06:18.959-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:06:26.957-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 6'.
+
+2024-08-27T22:06:35.730-0500	INFO	base/model.go:711	Compiled material. Material_rsTracks_var_table_e3351b8c_6 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/6/compile. 
+
+
+2024-08-27T22:06:35.740-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:06:35.752-0500	INFO	base/model.go:711	Compiled material. Material_user_default_id_stitcher_1551cc21_6 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/6/compile. 
+
+
+2024-08-27T22:06:35.754-0500	INFO	base/model.go:711	Compiled material. Material_user_all_e99cb381_6 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/6/compile. 
+
+
+2024-08-27T22:06:35.757-0500	INFO	base/model.go:711	Compiled material. Material_user_main_id_5f04745a_6 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/6/compile. 
+
+
+2024-08-27T22:06:35.758-0500	INFO	base/model.go:711	Compiled material. Material_user_var_table_9f95e1be_6 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/6/compile. 
+
+
+2024-08-27T22:06:35.761-0500	INFO	base/model.go:711	Compiled material. Material_last_seen_7b92241d_6 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/6/compile. 
+
+
+2024-08-27T22:06:35.764-0500	INFO	base/model.go:711	Compiled material. Material_first_seen_8ee49199_6 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/6/compile. 
+
+
+2024-08-27T22:06:35.768-0500	INFO	base/model.go:711	Compiled material. Material_days_active_74aa05e9_6 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/6/compile. 
+
+
+2024-08-27T22:06:35.772-0500	INFO	base/model.go:711	Compiled material. Material_user_lifespan_5b965bef_6 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/6/compile. 
+
+
+2024-08-27T22:06:37.166-0500	INFO	base/material.go:740	Preparing material Material_rsTracks_var_table_e3351b8c_6
+
+2024-08-27T22:06:38.260-0500	INFO	base/material.go:822	Running material Material_rsTracks_var_table_e3351b8c_6
+
+2024-08-27T22:06:41.313-0500	INFO	base/material.go:881	Material Material_rsTracks_var_table_e3351b8c_6 ran in 3.052747458s
+
+2024-08-27T22:06:43.023-0500	INFO	base/material.go:740	Preparing material Material_user_default_id_stitcher_1551cc21_6
+
+2024-08-27T22:06:43.737-0500	INFO	base/material.go:822	Running material Material_user_default_id_stitcher_1551cc21_6
+
+2024-08-27T22:06:43.743-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:07:01.836-0500	INFO	base/material.go:881	Material Material_user_default_id_stitcher_1551cc21_6 ran in 18.0994275s
+
+2024-08-27T22:07:04.236-0500	INFO	base/material.go:740	Preparing material Material_user_main_id_5f04745a_6
+
+2024-08-27T22:07:06.840-0500	INFO	base/material.go:822	Running material Material_user_main_id_5f04745a_6
+
+2024-08-27T22:07:11.557-0500	INFO	base/material.go:881	Material Material_user_main_id_5f04745a_6 ran in 4.715789833s
+
+2024-08-27T22:07:13.087-0500	INFO	base/material.go:740	Preparing material Material_user_all_e99cb381_6
+
+2024-08-27T22:07:13.807-0500	INFO	base/material.go:822	Running material Material_user_all_e99cb381_6
+
+2024-08-27T22:07:15.815-0500	INFO	base/material.go:881	Material Material_user_all_e99cb381_6 ran in 2.00760875s
+
+2024-08-27T22:07:17.494-0500	INFO	base/material.go:740	Preparing material Material_user_var_table_9f95e1be_6
+
+2024-08-27T22:07:18.224-0500	INFO	base/material.go:822	Running material Material_user_var_table_9f95e1be_6
+
+2024-08-27T22:07:21.841-0500	INFO	base/material.go:881	Material Material_user_var_table_9f95e1be_6 ran in 3.616222541s
+
+2024-08-27T22:07:25.081-0500	INFO	base/material.go:740	Preparing material Material_last_seen_7b92241d_6
+
+2024-08-27T22:07:26.898-0500	INFO	base/material.go:822	Running material Material_last_seen_7b92241d_6
+
+2024-08-27T22:07:32.147-0500	INFO	base/material.go:881	Material Material_last_seen_7b92241d_6 ran in 5.249090417s
+
+2024-08-27T22:07:33.981-0500	INFO	base/material.go:740	Preparing material Material_days_active_74aa05e9_6
+
+2024-08-27T22:07:36.119-0500	INFO	base/material.go:822	Running material Material_days_active_74aa05e9_6
+
+2024-08-27T22:07:41.468-0500	INFO	base/material.go:881	Material Material_days_active_74aa05e9_6 ran in 5.348531584s
+
+2024-08-27T22:07:43.173-0500	INFO	base/material.go:740	Preparing material Material_first_seen_8ee49199_6
+
+2024-08-27T22:07:45.115-0500	INFO	base/material.go:822	Running material Material_first_seen_8ee49199_6
+
+2024-08-27T22:07:49.546-0500	INFO	base/material.go:881	Material Material_first_seen_8ee49199_6 ran in 4.431057083s
+
+2024-08-27T22:07:51.902-0500	INFO	base/material.go:740	Preparing material Material_user_lifespan_5b965bef_6
+
+2024-08-27T22:07:53.433-0500	INFO	base/material.go:822	Running material Material_user_lifespan_5b965bef_6
+
+2024-08-27T22:07:58.021-0500	INFO	base/material.go:881	Material Material_user_lifespan_5b965bef_6 ran in 4.588404667s
+
+2024-08-27T22:17:01.184-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:17:01.205-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:17:01.246-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:17:04.943-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 7'.
+
+2024-08-27T22:17:13.830-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:17:13.847-0500	INFO	base/model.go:711	Compiled material. Material_user_default_id_stitcher_1551cc21_7 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/7/compile. 
+
+
+2024-08-27T22:17:13.850-0500	INFO	base/model.go:711	Compiled material. Material_rsTracks_var_table_e3351b8c_7 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/7/compile. 
+
+
+2024-08-27T22:17:13.851-0500	INFO	base/model.go:711	Compiled material. Material_user_all_e99cb381_7 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/7/compile. 
+
+
+2024-08-27T22:17:13.854-0500	INFO	base/model.go:711	Compiled material. Material_user_main_id_5f04745a_7 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/7/compile. 
+
+
+2024-08-27T22:17:13.855-0500	INFO	base/model.go:711	Compiled material. Material_user_var_table_9f95e1be_7 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/7/compile. 
+
+
+2024-08-27T22:17:13.858-0500	INFO	base/model.go:711	Compiled material. Material_days_active_74aa05e9_7 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/7/compile. 
+
+
+2024-08-27T22:17:13.861-0500	INFO	base/model.go:711	Compiled material. Material_first_seen_8ee49199_7 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/7/compile. 
+
+
+2024-08-27T22:17:13.865-0500	INFO	base/model.go:711	Compiled material. Material_last_seen_7b92241d_7 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/7/compile. 
+
+
+2024-08-27T22:17:13.871-0500	INFO	base/model.go:711	Compiled material. Material_user_lifespan_5b965bef_7 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/7/compile. 
+
+
+2024-08-27T22:17:14.505-0500	INFO	base/material.go:740	Preparing material Material_rsTracks_var_table_e3351b8c_7
+
+2024-08-27T22:17:15.207-0500	INFO	base/material.go:822	Running material Material_rsTracks_var_table_e3351b8c_7
+
+2024-08-27T22:17:17.793-0500	INFO	base/material.go:881	Material Material_rsTracks_var_table_e3351b8c_7 ran in 2.585661416s
+
+2024-08-27T22:17:19.295-0500	INFO	base/material.go:740	Preparing material Material_user_default_id_stitcher_1551cc21_7
+
+2024-08-27T22:17:19.908-0500	INFO	base/material.go:822	Running material Material_user_default_id_stitcher_1551cc21_7
+
+2024-08-27T22:17:19.921-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:17:35.975-0500	INFO	base/material.go:881	Material Material_user_default_id_stitcher_1551cc21_7 ran in 16.06633675s
+
+2024-08-27T22:17:37.739-0500	INFO	base/material.go:740	Preparing material Material_user_all_e99cb381_7
+
+2024-08-27T22:17:38.342-0500	INFO	base/material.go:822	Running material Material_user_all_e99cb381_7
+
+2024-08-27T22:17:39.280-0500	INFO	base/material.go:881	Material Material_user_all_e99cb381_7 ran in 937.555625ms
+
+2024-08-27T22:17:40.909-0500	INFO	base/material.go:740	Preparing material Material_user_main_id_5f04745a_7
+
+2024-08-27T22:17:42.810-0500	INFO	base/material.go:822	Running material Material_user_main_id_5f04745a_7
+
+2024-08-27T22:17:47.456-0500	INFO	base/material.go:881	Material Material_user_main_id_5f04745a_7 ran in 4.645288875s
+
+2024-08-27T22:17:48.768-0500	INFO	base/material.go:740	Preparing material Material_user_var_table_9f95e1be_7
+
+2024-08-27T22:17:49.646-0500	INFO	base/material.go:822	Running material Material_user_var_table_9f95e1be_7
+
+2024-08-27T22:17:51.917-0500	INFO	base/material.go:881	Material Material_user_var_table_9f95e1be_7 ran in 2.270392083s
+
+2024-08-27T22:17:54.028-0500	INFO	base/material.go:740	Preparing material Material_first_seen_8ee49199_7
+
+2024-08-27T22:17:55.747-0500	INFO	base/material.go:822	Running material Material_first_seen_8ee49199_7
+
+2024-08-27T22:18:00.050-0500	INFO	base/material.go:881	Material Material_first_seen_8ee49199_7 ran in 4.303409334s
+
+2024-08-27T22:18:02.104-0500	INFO	base/material.go:740	Preparing material Material_days_active_74aa05e9_7
+
+2024-08-27T22:18:03.650-0500	INFO	base/material.go:822	Running material Material_days_active_74aa05e9_7
+
+2024-08-27T22:18:08.116-0500	INFO	base/material.go:881	Material Material_days_active_74aa05e9_7 ran in 4.466399875s
+
+2024-08-27T22:18:10.806-0500	INFO	base/material.go:740	Preparing material Material_last_seen_7b92241d_7
+
+2024-08-27T22:18:12.647-0500	INFO	base/material.go:822	Running material Material_last_seen_7b92241d_7
+
+2024-08-27T22:18:17.661-0500	INFO	base/material.go:881	Material Material_last_seen_7b92241d_7 ran in 5.01401325s
+
+2024-08-27T22:18:19.154-0500	INFO	base/material.go:740	Preparing material Material_user_lifespan_5b965bef_7
+
+2024-08-27T22:18:21.041-0500	INFO	base/material.go:822	Running material Material_user_lifespan_5b965bef_7
+
+2024-08-27T22:18:24.860-0500	INFO	base/material.go:881	Material Material_user_lifespan_5b965bef_7 ran in 3.818659875s
+
+2024-08-27T22:20:26.813-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:20:26.836-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:20:26.878-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:20:29.710-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 8'.
+
+2024-08-27T22:20:30.780-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-27T22:20:30.903-0500	INFO	retention/cleanup.go:140	36 material run results found
+
+2024-08-27T22:20:30.904-0500	INFO	retention/cleanup.go:154	36 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-27T22:20:34.206-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-27T22:20:34.296-0500	INFO	retention/cleanup.go:140	36 material run results found
+
+2024-08-27T22:20:34.296-0500	INFO	retention/cleanup.go:154	36 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-27T22:20:34.297-0500	INFO	retention/cleanup.go:84	starting to run purge
+
+2024-08-27T22:20:34.500-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_6 }
+
+2024-08-27T22:20:35.022-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_6 }
+
+2024-08-27T22:20:35.629-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_6 }
+
+2024-08-27T22:20:35.797-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_6_INTERNAL_EDGES }
+
+2024-08-27T22:20:35.945-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_6_INTERNAL_MAPPING }
+
+2024-08-27T22:20:36.587-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_6 }
+
+2024-08-27T22:20:36.674-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_6_INTERNAL_EDGES }
+
+2024-08-27T22:20:36.757-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_6_INTERNAL_MAPPING }
+
+2024-08-27T22:20:39.392-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_6 }
+
+2024-08-27T22:20:40.165-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_6 }
+
+2024-08-27T22:20:40.595-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_6 }
+
+2024-08-27T22:20:41.434-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_6 }
+
+2024-08-27T22:20:50.574-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_7 }
+
+2024-08-27T22:20:51.248-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_7 }
+
+2024-08-27T22:20:51.810-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_7 }
+
+2024-08-27T22:20:52.013-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_7_INTERNAL_EDGES }
+
+2024-08-27T22:20:52.182-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_7_INTERNAL_MAPPING }
+
+2024-08-27T22:20:52.887-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_7 }
+
+2024-08-27T22:20:53.004-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_7_INTERNAL_EDGES }
+
+2024-08-27T22:20:53.119-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_7_INTERNAL_MAPPING }
+
+2024-08-27T22:20:53.886-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_7 }
+
+2024-08-27T22:20:54.548-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_7 }
+
+2024-08-27T22:20:57.404-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_7 }
+
+2024-08-27T22:20:58.017-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_7 }
+
+2024-08-27T22:21:08.382-0500	INFO	retention/cleanup.go:103	purging complete
+
+2024-08-27T22:23:55.099-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:23:55.137-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:23:55.177-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:23:57.922-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 9'.
+
+2024-08-27T22:24:09.507-0500	INFO	base/model.go:711	Compiled material. Material_rsTracks_var_table_e3351b8c_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.513-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:24:09.519-0500	INFO	base/model.go:711	Compiled material. Material_user_default_id_stitcher_1551cc21_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.523-0500	INFO	base/model.go:711	Compiled material. Material_user_main_id_5f04745a_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.524-0500	INFO	base/model.go:711	Compiled material. Material_user_all_e99cb381_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.525-0500	INFO	base/model.go:711	Compiled material. Material_user_var_table_9f95e1be_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.528-0500	INFO	base/model.go:711	Compiled material. Material_days_active_74aa05e9_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.531-0500	INFO	base/model.go:711	Compiled material. Material_last_seen_7b92241d_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.535-0500	INFO	base/model.go:711	Compiled material. Material_first_seen_8ee49199_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.537-0500	INFO	base/model.go:711	Compiled material. Material_user_lifespan_5b965bef_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.540-0500	INFO	base/model.go:711	Compiled material. Material_user_feature_view_76a6934b_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:09.543-0500	INFO	base/model.go:711	Compiled material. Material_features_by_user_id_cfbe3bde_9 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/9/compile. 
+
+
+2024-08-27T22:24:10.001-0500	INFO	base/material.go:740	Preparing material Material_user_default_id_stitcher_1551cc21_9
+
+2024-08-27T22:24:10.512-0500	INFO	base/material.go:822	Running material Material_user_default_id_stitcher_1551cc21_9
+
+2024-08-27T22:24:10.517-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:24:29.240-0500	INFO	base/material.go:881	Material Material_user_default_id_stitcher_1551cc21_9 ran in 18.728203917s
+
+2024-08-27T22:24:31.925-0500	INFO	base/material.go:740	Preparing material Material_rsTracks_var_table_e3351b8c_9
+
+2024-08-27T22:24:32.560-0500	INFO	base/material.go:822	Running material Material_rsTracks_var_table_e3351b8c_9
+
+2024-08-27T22:24:35.503-0500	INFO	base/material.go:881	Material Material_rsTracks_var_table_e3351b8c_9 ran in 2.942529875s
+
+2024-08-27T22:24:36.882-0500	INFO	base/material.go:740	Preparing material Material_user_all_e99cb381_9
+
+2024-08-27T22:24:37.533-0500	INFO	base/material.go:822	Running material Material_user_all_e99cb381_9
+
+2024-08-27T22:24:38.673-0500	INFO	base/material.go:881	Material Material_user_all_e99cb381_9 ran in 1.1398235s
+
+2024-08-27T22:24:40.435-0500	INFO	base/material.go:740	Preparing material Material_user_main_id_5f04745a_9
+
+2024-08-27T22:24:41.818-0500	INFO	base/material.go:822	Running material Material_user_main_id_5f04745a_9
+
+2024-08-27T22:24:46.727-0500	INFO	base/material.go:881	Material Material_user_main_id_5f04745a_9 ran in 4.90838925s
+
+2024-08-27T22:24:48.300-0500	INFO	base/material.go:740	Preparing material Material_user_var_table_9f95e1be_9
+
+2024-08-27T22:24:48.822-0500	INFO	base/material.go:822	Running material Material_user_var_table_9f95e1be_9
+
+2024-08-27T22:24:50.657-0500	INFO	base/material.go:881	Material Material_user_var_table_9f95e1be_9 ran in 1.8347765s
+
+2024-08-27T22:24:52.611-0500	INFO	base/material.go:740	Preparing material Material_days_active_74aa05e9_9
+
+2024-08-27T22:24:54.408-0500	INFO	base/material.go:822	Running material Material_days_active_74aa05e9_9
+
+2024-08-27T22:24:59.010-0500	INFO	base/material.go:881	Material Material_days_active_74aa05e9_9 ran in 4.602625125s
+
+2024-08-27T22:25:00.963-0500	INFO	base/material.go:740	Preparing material Material_last_seen_7b92241d_9
+
+2024-08-27T22:25:02.634-0500	INFO	base/material.go:822	Running material Material_last_seen_7b92241d_9
+
+2024-08-27T22:25:07.758-0500	INFO	base/material.go:881	Material Material_last_seen_7b92241d_9 ran in 5.122963583s
+
+2024-08-27T22:25:09.795-0500	INFO	base/material.go:740	Preparing material Material_first_seen_8ee49199_9
+
+2024-08-27T22:25:11.644-0500	INFO	base/material.go:822	Running material Material_first_seen_8ee49199_9
+
+2024-08-27T22:25:16.459-0500	INFO	base/material.go:881	Material Material_first_seen_8ee49199_9 ran in 4.814936375s
+
+2024-08-27T22:25:18.199-0500	INFO	base/material.go:740	Preparing material Material_user_lifespan_5b965bef_9
+
+2024-08-27T22:25:20.041-0500	INFO	base/material.go:822	Running material Material_user_lifespan_5b965bef_9
+
+2024-08-27T22:25:23.830-0500	INFO	base/material.go:881	Material Material_user_lifespan_5b965bef_9 ran in 3.788476167s
+
+2024-08-27T22:25:25.060-0500	INFO	base/material.go:740	Preparing material Material_user_feature_view_76a6934b_9
+
+2024-08-27T22:25:25.611-0500	INFO	base/material.go:822	Running material Material_user_feature_view_76a6934b_9
+
+2024-08-27T22:25:26.574-0500	INFO	base/material.go:881	Material Material_user_feature_view_76a6934b_9 ran in 962.307209ms
+
+2024-08-27T22:25:27.824-0500	INFO	base/material.go:740	Preparing material Material_features_by_user_id_cfbe3bde_9
+
+2024-08-27T22:25:30.487-0500	INFO	base/material.go:822	Running material Material_features_by_user_id_cfbe3bde_9
+
+2024-08-27T22:25:31.514-0500	INFO	base/material.go:881	Material Material_features_by_user_id_cfbe3bde_9 ran in 1.027433875s
+
+2024-08-27T22:42:09.129-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:42:09.164-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:42:09.205-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:42:12.185-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 10'.
+
+2024-08-27T22:42:13.384-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-27T22:42:13.605-0500	INFO	retention/cleanup.go:140	22 material run results found
+
+2024-08-27T22:42:13.605-0500	INFO	retention/cleanup.go:154	22 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-27T22:58:08.989-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:58:09.027-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:58:09.069-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:58:09.096-0500	INFO	api/show.go:100	Printing models
+
+2024-08-27T22:58:17.026-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:58:17.064-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:58:17.104-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-27T22:58:17.130-0500	INFO	api/show.go:350	creating graph
+
+2024-08-27T22:58:17.232-0500	INFO	visualisation/dag.go:126	created PNG file: dependencies.png
+
+2024-08-28T14:24:19.003-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:24:19.041-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:24:19.047-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:24:19.075-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:24:19.095-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:24:19.100-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:24:23.062-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 11'.
+
+2024-08-28T14:24:33.806-0500	INFO	base/model.go:711	Compiled material. Material_rsTracks_var_table_e3351b8c_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.809-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:24:33.814-0500	INFO	base/model.go:711	Compiled material. Material_user_id_stitcher_ed62a9a5_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.817-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:24:33.824-0500	INFO	base/model.go:711	Compiled material. Material_user_default_id_stitcher_1551cc21_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.825-0500	INFO	base/model.go:711	Compiled material. Material_user_all_e99cb381_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.831-0500	INFO	base/model.go:711	Compiled material. Material_user_main_id_5f04745a_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.832-0500	INFO	base/model.go:711	Compiled material. Material_user_var_table_9f95e1be_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.835-0500	INFO	base/model.go:711	Compiled material. Material_first_seen_8ee49199_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.839-0500	INFO	base/model.go:711	Compiled material. Material_last_seen_7b92241d_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.843-0500	INFO	base/model.go:711	Compiled material. Material_days_active_74aa05e9_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.846-0500	INFO	base/model.go:711	Compiled material. Material_user_lifespan_5b965bef_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.849-0500	INFO	base/model.go:711	Compiled material. Material_user_feature_view_76a6934b_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:33.851-0500	INFO	base/model.go:711	Compiled material. Material_features_by_user_id_cfbe3bde_11 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/11/compile. 
+
+
+2024-08-28T14:24:35.638-0500	INFO	base/material.go:740	Preparing material Material_user_default_id_stitcher_1551cc21_11
+
+2024-08-28T14:24:36.584-0500	INFO	base/material.go:822	Running material Material_user_default_id_stitcher_1551cc21_11
+
+2024-08-28T14:24:36.592-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:24:54.455-0500	INFO	base/material.go:881	Material Material_user_default_id_stitcher_1551cc21_11 ran in 17.870997125s
+
+2024-08-28T14:24:56.528-0500	INFO	base/material.go:740	Preparing material Material_user_id_stitcher_ed62a9a5_11
+
+2024-08-28T14:24:57.244-0500	INFO	base/material.go:822	Running material Material_user_id_stitcher_ed62a9a5_11
+
+2024-08-28T14:24:57.251-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:25:18.753-0500	INFO	base/material.go:881	Material Material_user_id_stitcher_ed62a9a5_11 ran in 21.508812292s
+
+2024-08-28T14:25:20.872-0500	INFO	base/material.go:740	Preparing material Material_rsTracks_var_table_e3351b8c_11
+
+2024-08-28T14:25:21.548-0500	INFO	base/material.go:822	Running material Material_rsTracks_var_table_e3351b8c_11
+
+2024-08-28T14:25:24.442-0500	INFO	base/material.go:881	Material Material_rsTracks_var_table_e3351b8c_11 ran in 2.892199042s
+
+2024-08-28T14:25:25.711-0500	INFO	base/material.go:740	Preparing material Material_user_all_e99cb381_11
+
+2024-08-28T14:25:26.244-0500	INFO	base/material.go:822	Running material Material_user_all_e99cb381_11
+
+2024-08-28T14:25:27.248-0500	INFO	base/material.go:881	Material Material_user_all_e99cb381_11 ran in 1.003493125s
+
+2024-08-28T14:25:29.091-0500	INFO	base/material.go:740	Preparing material Material_user_main_id_5f04745a_11
+
+2024-08-28T14:25:30.626-0500	INFO	base/material.go:822	Running material Material_user_main_id_5f04745a_11
+
+2024-08-28T14:25:35.389-0500	INFO	base/material.go:881	Material Material_user_main_id_5f04745a_11 ran in 4.762462084s
+
+2024-08-28T14:25:37.164-0500	INFO	base/material.go:740	Preparing material Material_user_var_table_9f95e1be_11
+
+2024-08-28T14:25:37.717-0500	INFO	base/material.go:822	Running material Material_user_var_table_9f95e1be_11
+
+2024-08-28T14:25:39.745-0500	INFO	base/material.go:881	Material Material_user_var_table_9f95e1be_11 ran in 2.027705625s
+
+2024-08-28T14:25:42.098-0500	INFO	base/material.go:740	Preparing material Material_first_seen_8ee49199_11
+
+2024-08-28T14:25:43.940-0500	INFO	base/material.go:822	Running material Material_first_seen_8ee49199_11
+
+2024-08-28T14:25:48.856-0500	INFO	base/material.go:881	Material Material_first_seen_8ee49199_11 ran in 4.915509s
+
+2024-08-28T14:25:50.596-0500	INFO	base/material.go:740	Preparing material Material_days_active_74aa05e9_11
+
+2024-08-28T14:25:52.213-0500	INFO	base/material.go:822	Running material Material_days_active_74aa05e9_11
+
+2024-08-28T14:25:56.842-0500	INFO	base/material.go:881	Material Material_days_active_74aa05e9_11 ran in 4.628277125s
+
+2024-08-28T14:25:58.792-0500	INFO	base/material.go:740	Preparing material Material_last_seen_7b92241d_11
+
+2024-08-28T14:26:00.426-0500	INFO	base/material.go:822	Running material Material_last_seen_7b92241d_11
+
+2024-08-28T14:26:05.346-0500	INFO	base/material.go:881	Material Material_last_seen_7b92241d_11 ran in 4.919433417s
+
+2024-08-28T14:26:07.060-0500	INFO	base/material.go:740	Preparing material Material_user_lifespan_5b965bef_11
+
+2024-08-28T14:26:08.829-0500	INFO	base/material.go:822	Running material Material_user_lifespan_5b965bef_11
+
+2024-08-28T14:26:12.582-0500	INFO	base/material.go:881	Material Material_user_lifespan_5b965bef_11 ran in 3.752233917s
+
+2024-08-28T14:26:13.782-0500	INFO	base/material.go:740	Preparing material Material_user_feature_view_76a6934b_11
+
+2024-08-28T14:26:14.351-0500	INFO	base/material.go:822	Running material Material_user_feature_view_76a6934b_11
+
+2024-08-28T14:26:15.686-0500	INFO	base/material.go:881	Material Material_user_feature_view_76a6934b_11 ran in 1.334198667s
+
+2024-08-28T14:26:16.911-0500	INFO	base/material.go:740	Preparing material Material_features_by_user_id_cfbe3bde_11
+
+2024-08-28T14:26:17.629-0500	INFO	base/material.go:822	Running material Material_features_by_user_id_cfbe3bde_11
+
+2024-08-28T14:26:18.675-0500	INFO	base/material.go:881	Material Material_features_by_user_id_cfbe3bde_11 ran in 1.045967833s
+
+2024-08-28T14:32:30.173-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:32:30.210-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:32:30.216-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:32:30.237-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:32:30.264-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:32:30.269-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:32:30.297-0500	INFO	api/show.go:350	creating graph
+
+2024-08-28T14:32:30.439-0500	INFO	visualisation/dag.go:126	created PNG file: dependencies.png
+
+2024-08-28T14:33:23.875-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:33:23.911-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:33:23.951-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:33:30.410-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 12'.
+
+2024-08-28T14:33:39.963-0500	INFO	base/model.go:711	Compiled material. Material_rsTracks_var_table_e3351b8c_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:39.966-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:33:39.974-0500	INFO	base/model.go:711	Compiled material. Material_user_id_stitcher_ed62a9a5_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:39.975-0500	INFO	base/model.go:711	Compiled material. Material_user_all_a2efad7c_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:39.978-0500	INFO	base/model.go:711	Compiled material. Material_user_main_id_52ab7ba6_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:39.979-0500	INFO	base/model.go:711	Compiled material. Material_user_var_table_f8ad61b7_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:39.982-0500	INFO	base/model.go:711	Compiled material. Material_last_seen_0c50fa88_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:39.987-0500	INFO	base/model.go:711	Compiled material. Material_days_active_f6567c0e_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:39.991-0500	INFO	base/model.go:711	Compiled material. Material_first_seen_15934164_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:39.996-0500	INFO	base/model.go:711	Compiled material. Material_user_lifespan_beaccb45_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:39.998-0500	INFO	base/model.go:711	Compiled material. Material_user_feature_view_1273093d_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:40.000-0500	INFO	base/model.go:711	Compiled material. Material_features_by_user_id_036eb2eb_12 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/12/compile. 
+
+
+2024-08-28T14:33:40.653-0500	INFO	base/material.go:740	Preparing material Material_rsTracks_var_table_e3351b8c_12
+
+2024-08-28T14:33:41.129-0500	INFO	base/material.go:822	Running material Material_rsTracks_var_table_e3351b8c_12
+
+2024-08-28T14:33:43.795-0500	INFO	base/material.go:881	Material Material_rsTracks_var_table_e3351b8c_12 ran in 2.665287s
+
+2024-08-28T14:33:45.120-0500	INFO	base/material.go:740	Preparing material Material_user_id_stitcher_ed62a9a5_12
+
+2024-08-28T14:33:45.735-0500	INFO	base/material.go:822	Running material Material_user_id_stitcher_ed62a9a5_12
+
+2024-08-28T14:33:45.739-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T14:34:06.387-0500	INFO	base/material.go:881	Material Material_user_id_stitcher_ed62a9a5_12 ran in 20.650870958s
+
+2024-08-28T14:34:09.286-0500	INFO	base/material.go:740	Preparing material Material_user_main_id_52ab7ba6_12
+
+2024-08-28T14:34:11.180-0500	INFO	base/material.go:822	Running material Material_user_main_id_52ab7ba6_12
+
+2024-08-28T14:34:16.556-0500	INFO	base/material.go:881	Material Material_user_main_id_52ab7ba6_12 ran in 5.375470583s
+
+2024-08-28T14:34:18.061-0500	INFO	base/material.go:740	Preparing material Material_user_all_a2efad7c_12
+
+2024-08-28T14:34:18.809-0500	INFO	base/material.go:822	Running material Material_user_all_a2efad7c_12
+
+2024-08-28T14:34:19.842-0500	INFO	base/material.go:881	Material Material_user_all_a2efad7c_12 ran in 1.032758375s
+
+2024-08-28T14:34:21.750-0500	INFO	base/material.go:740	Preparing material Material_user_var_table_f8ad61b7_12
+
+2024-08-28T14:34:22.397-0500	INFO	base/material.go:822	Running material Material_user_var_table_f8ad61b7_12
+
+2024-08-28T14:34:24.258-0500	INFO	base/material.go:881	Material Material_user_var_table_f8ad61b7_12 ran in 1.860637375s
+
+2024-08-28T14:34:26.298-0500	INFO	base/material.go:740	Preparing material Material_last_seen_0c50fa88_12
+
+2024-08-28T14:34:28.230-0500	INFO	base/material.go:822	Running material Material_last_seen_0c50fa88_12
+
+2024-08-28T14:34:33.351-0500	INFO	base/material.go:881	Material Material_last_seen_0c50fa88_12 ran in 5.120729666s
+
+2024-08-28T14:34:35.501-0500	INFO	base/material.go:740	Preparing material Material_first_seen_15934164_12
+
+2024-08-28T14:34:37.549-0500	INFO	base/material.go:822	Running material Material_first_seen_15934164_12
+
+2024-08-28T14:34:42.125-0500	INFO	base/material.go:881	Material Material_first_seen_15934164_12 ran in 4.575158833s
+
+2024-08-28T14:34:43.984-0500	INFO	base/material.go:740	Preparing material Material_days_active_f6567c0e_12
+
+2024-08-28T14:34:45.758-0500	INFO	base/material.go:822	Running material Material_days_active_f6567c0e_12
+
+2024-08-28T14:34:50.862-0500	INFO	base/material.go:881	Material Material_days_active_f6567c0e_12 ran in 5.103591792s
+
+2024-08-28T14:34:52.705-0500	INFO	base/material.go:740	Preparing material Material_user_lifespan_beaccb45_12
+
+2024-08-28T14:34:54.324-0500	INFO	base/material.go:822	Running material Material_user_lifespan_beaccb45_12
+
+2024-08-28T14:34:58.439-0500	INFO	base/material.go:881	Material Material_user_lifespan_beaccb45_12 ran in 4.114152625s
+
+2024-08-28T14:34:59.975-0500	INFO	base/material.go:740	Preparing material Material_user_feature_view_1273093d_12
+
+2024-08-28T14:35:00.441-0500	INFO	base/material.go:822	Running material Material_user_feature_view_1273093d_12
+
+2024-08-28T14:35:01.614-0500	INFO	base/material.go:881	Material Material_user_feature_view_1273093d_12 ran in 1.1728535s
+
+2024-08-28T14:35:03.047-0500	INFO	base/material.go:740	Preparing material Material_features_by_user_id_036eb2eb_12
+
+2024-08-28T14:35:03.877-0500	INFO	base/material.go:822	Running material Material_features_by_user_id_036eb2eb_12
+
+2024-08-28T14:35:06.452-0500	INFO	base/material.go:881	Material Material_features_by_user_id_036eb2eb_12 ran in 2.574181625s
+
+2024-08-28T16:18:11.320-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T16:18:11.356-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T16:18:11.398-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T16:18:11.425-0500	INFO	api/show.go:350	creating graph
+
+2024-08-28T16:18:11.525-0500	INFO	visualisation/dag.go:126	created PNG file: dependencies.png
+
+2024-08-28T16:21:08.035-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T16:21:08.069-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T16:21:08.110-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T16:21:12.385-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 13'.
+
+2024-08-28T16:21:13.972-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T16:21:14.522-0500	INFO	retention/cleanup.go:140	68 material run results found
+
+2024-08-28T16:21:14.522-0500	INFO	retention/cleanup.go:154	68 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T16:21:18.715-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T16:21:19.059-0500	INFO	retention/cleanup.go:140	68 material run results found
+
+2024-08-28T16:21:19.059-0500	INFO	retention/cleanup.go:154	68 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T16:21:19.059-0500	INFO	retention/cleanup.go:84	starting to run purge
+
+2024-08-28T16:21:19.196-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_9 }
+
+2024-08-28T16:21:19.341-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_9_INTERNAL_EDGES }
+
+2024-08-28T16:21:19.485-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_9_INTERNAL_MAPPING }
+
+2024-08-28T16:21:20.452-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_9 }
+
+2024-08-28T16:21:20.535-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_9_INTERNAL_EDGES }
+
+2024-08-28T16:21:20.613-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_9_INTERNAL_MAPPING }
+
+2024-08-28T16:21:21.289-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_9 }
+
+2024-08-28T16:21:21.972-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_9 }
+
+2024-08-28T16:21:22.670-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_9 }
+
+2024-08-28T16:21:23.421-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_9 }
+
+2024-08-28T16:21:26.473-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_9 }
+
+2024-08-28T16:21:27.220-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_9 }
+
+2024-08-28T16:21:36.559-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_76A6934B_9 }
+
+2024-08-28T16:21:37.324-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_76A6934B_9 }
+
+2024-08-28T16:21:37.726-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_CFBE3BDE_9 }
+
+2024-08-28T16:21:38.454-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_CFBE3BDE_9 }
+
+2024-08-28T16:21:38.857-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_11 }
+
+2024-08-28T16:21:39.004-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_11_INTERNAL_EDGES }
+
+2024-08-28T16:21:39.115-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_11_INTERNAL_MAPPING }
+
+2024-08-28T16:21:40.261-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_11 }
+
+2024-08-28T16:21:40.410-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_11_INTERNAL_EDGES }
+
+2024-08-28T16:21:40.495-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_DEFAULT_ID_STITCHER_1551CC21_11_INTERNAL_MAPPING }
+
+2024-08-28T16:21:40.921-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_11 }
+
+2024-08-28T16:21:41.054-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_11_INTERNAL_EDGES }
+
+2024-08-28T16:21:41.198-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_11_INTERNAL_MAPPING }
+
+2024-08-28T16:21:41.798-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_11 }
+
+2024-08-28T16:21:41.875-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_11_INTERNAL_EDGES }
+
+2024-08-28T16:21:41.962-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_11_INTERNAL_MAPPING }
+
+2024-08-28T16:21:42.469-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_11 }
+
+2024-08-28T16:21:43.063-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_11 }
+
+2024-08-28T16:21:43.610-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_11 }
+
+2024-08-28T16:21:44.399-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_E99CB381_11 }
+
+2024-08-28T16:21:46.964-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_11 }
+
+2024-08-28T16:21:47.662-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_9F95E1BE_11 }
+
+2024-08-28T16:21:57.137-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_76A6934B_11 }
+
+2024-08-28T16:21:57.683-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_76A6934B_11 }
+
+2024-08-28T16:21:58.121-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_CFBE3BDE_11 }
+
+2024-08-28T16:21:58.834-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_CFBE3BDE_11 }
+
+2024-08-28T16:21:59.150-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_12 }
+
+2024-08-28T16:21:59.773-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_12 }
+
+2024-08-28T16:22:00.233-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_12 }
+
+2024-08-28T16:22:00.347-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_12_INTERNAL_EDGES }
+
+2024-08-28T16:22:00.506-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_12_INTERNAL_MAPPING }
+
+2024-08-28T16:22:01.079-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_12 }
+
+2024-08-28T16:22:01.207-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_12_INTERNAL_EDGES }
+
+2024-08-28T16:22:01.310-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_12_INTERNAL_MAPPING }
+
+2024-08-28T16:22:04.244-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_A2EFAD7C_12 }
+
+2024-08-28T16:22:05.100-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_A2EFAD7C_12 }
+
+2024-08-28T16:22:05.620-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_F8AD61B7_12 }
+
+2024-08-28T16:22:06.404-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_F8AD61B7_12 }
+
+2024-08-28T16:22:16.718-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_1273093D_12 }
+
+2024-08-28T16:22:17.391-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_1273093D_12 }
+
+2024-08-28T16:22:17.909-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_036EB2EB_12 }
+
+2024-08-28T16:22:18.419-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_036EB2EB_12 }
+
+2024-08-28T16:22:18.648-0500	INFO	retention/cleanup.go:103	purging complete
+
+2024-08-28T21:39:17.062-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:39:17.111-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:39:17.163-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:39:17.199-0500	ERROR	run/run.go:62	creating project api: loading project: could not create project: loading project: conflicting db name features_by_user_id found for model user/all/feature_view/features_by_user_id
+
+2024-08-28T21:40:20.892-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:40:20.946-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:40:20.996-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:40:21.033-0500	ERROR	run/run.go:62	creating project api: loading project: could not create project: loading project: conflicting db name features_by_user_id found for model user/all/feature_view/features_by_user_id
+
+2024-08-28T21:40:40.081-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:40:40.123-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:40:40.142-0500	ERROR	core/projectLoad.go:138	populating dependencies for project:sample_attribution, model: users_with_valid_email: preparing recipe for users_with_valid_email : preparing sqlQueryRecipe: executing sql template: [Error (where: execution) in <string> | Line 83 Col 46 near 'warehouse'] running exec tag: [Error (where: execution) in <string> | Line 83 Col 66 near 'whStatement'] [Error (where: execution) in <string> | Line 67 Col 28 near 'user'] getting template material for email: error getting column material: dereferencing model email: no matching model found for modelRef email in folder all
+
+2024-08-28T21:40:40.142-0500	ERROR	run/run.go:62	creating project api: loading project: could not create project: loading project: while running loadPartial sample_attribution: populating dependencies for project:sample_attribution, model: users_with_valid_email: preparing recipe for users_with_valid_email : preparing sqlQueryRecipe: executing sql template: [Error (where: execution) in <string> | Line 83 Col 46 near 'warehouse'] running exec tag: [Error (where: execution) in <string> | Line 83 Col 66 near 'whStatement'] [Error (where: execution) in <string> | Line 67 Col 28 near 'user'] getting template material for email: error getting column material: dereferencing model email: no matching model found for modelRef email in folder all
+
+2024-08-28T21:41:29.452-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:41:29.501-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:41:29.550-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:41:29.584-0500	ERROR	run/run.go:62	creating project api: loading project: could not create project: loading project: conflicting db name features_by_user_id found for model models/users_with_valid_email/users_with_valid_email_feature_view/features_by_user_id
+
+2024-08-28T21:45:27.273-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:45:27.316-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:45:27.358-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:45:31.660-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 14'.
+
+2024-08-28T21:45:41.810-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:45:41.819-0500	INFO	base/model.go:711	Compiled material. Material_user_id_stitcher_ed62a9a5_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.821-0500	INFO	base/model.go:711	Compiled material. Material_rsTracks_var_table_e3351b8c_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.823-0500	INFO	base/model.go:711	Compiled material. Material_user_all_a2efad7c_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.825-0500	INFO	base/model.go:711	Compiled material. Material_user_id_stitcher_var_table_9494959f_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.828-0500	INFO	base/model.go:711	Compiled material. Material_user_main_id_52ab7ba6_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.829-0500	INFO	base/model.go:711	Compiled material. Material_user_var_table_f8ad61b7_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.832-0500	INFO	base/model.go:711	Compiled material. Material_id_type_email_count_efeb33bb_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.835-0500	INFO	base/model.go:711	Compiled material. Material_last_seen_0c50fa88_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.838-0500	INFO	base/model.go:711	Compiled material. Material_first_seen_15934164_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.843-0500	INFO	base/model.go:711	Compiled material. Material_days_active_f6567c0e_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.847-0500	INFO	base/model.go:711	Compiled material. Material_user_lifespan_beaccb45_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.850-0500	INFO	base/model.go:711	Compiled material. Material_user_feature_view_61a12954_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:41.852-0500	INFO	base/model.go:711	Compiled material. Material_features_by_user_id_d8296b37_14 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/14/compile. 
+
+
+2024-08-28T21:45:42.711-0500	INFO	base/material.go:740	Preparing material Material_rsTracks_var_table_e3351b8c_14
+
+2024-08-28T21:45:43.426-0500	INFO	base/material.go:822	Running material Material_rsTracks_var_table_e3351b8c_14
+
+2024-08-28T21:45:46.298-0500	INFO	base/material.go:881	Material Material_rsTracks_var_table_e3351b8c_14 ran in 2.871961208s
+
+2024-08-28T21:45:47.651-0500	INFO	base/material.go:740	Preparing material Material_user_id_stitcher_ed62a9a5_14
+
+2024-08-28T21:45:48.273-0500	INFO	base/material.go:822	Running material Material_user_id_stitcher_ed62a9a5_14
+
+2024-08-28T21:45:48.288-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:46:06.316-0500	INFO	base/material.go:881	Material Material_user_id_stitcher_ed62a9a5_14 ran in 18.042378792s
+
+2024-08-28T21:46:08.233-0500	INFO	base/material.go:740	Preparing material Material_user_id_stitcher_var_table_9494959f_14
+
+2024-08-28T21:46:08.931-0500	INFO	base/material.go:822	Running material Material_user_id_stitcher_var_table_9494959f_14
+
+2024-08-28T21:46:10.770-0500	INFO	base/material.go:881	Material Material_user_id_stitcher_var_table_9494959f_14 ran in 1.839222375s
+
+2024-08-28T21:46:12.303-0500	INFO	base/material.go:740	Preparing material Material_user_all_a2efad7c_14
+
+2024-08-28T21:46:13.225-0500	INFO	base/material.go:822	Running material Material_user_all_a2efad7c_14
+
+2024-08-28T21:46:14.155-0500	INFO	base/material.go:881	Material Material_user_all_a2efad7c_14 ran in 929.520083ms
+
+2024-08-28T21:46:15.995-0500	INFO	base/material.go:740	Preparing material Material_user_main_id_52ab7ba6_14
+
+2024-08-28T21:46:17.526-0500	INFO	base/material.go:822	Running material Material_user_main_id_52ab7ba6_14
+
+2024-08-28T21:46:22.238-0500	INFO	base/material.go:881	Material Material_user_main_id_52ab7ba6_14 ran in 4.711797875s
+
+2024-08-28T21:46:23.569-0500	INFO	base/material.go:740	Preparing material Material_user_var_table_f8ad61b7_14
+
+2024-08-28T21:46:24.124-0500	INFO	base/material.go:822	Running material Material_user_var_table_f8ad61b7_14
+
+2024-08-28T21:46:25.831-0500	INFO	base/material.go:881	Material Material_user_var_table_f8ad61b7_14 ran in 1.705894833s
+
+2024-08-28T21:46:28.074-0500	INFO	base/material.go:740	Preparing material Material_id_type_email_count_efeb33bb_14
+
+2024-08-28T21:46:29.814-0500	INFO	base/material.go:822	Running material Material_id_type_email_count_efeb33bb_14
+
+2024-08-28T21:46:33.911-0500	INFO	base/material.go:881	Material Material_id_type_email_count_efeb33bb_14 ran in 4.0967235s
+
+2024-08-28T21:46:36.077-0500	INFO	base/material.go:740	Preparing material Material_last_seen_0c50fa88_14
+
+2024-08-28T21:46:37.609-0500	INFO	base/material.go:822	Running material Material_last_seen_0c50fa88_14
+
+2024-08-28T21:46:43.136-0500	INFO	base/material.go:881	Material Material_last_seen_0c50fa88_14 ran in 5.526275s
+
+2024-08-28T21:46:44.869-0500	INFO	base/material.go:740	Preparing material Material_days_active_f6567c0e_14
+
+2024-08-28T21:46:46.233-0500	INFO	base/material.go:822	Running material Material_days_active_f6567c0e_14
+
+2024-08-28T21:46:51.522-0500	INFO	base/material.go:881	Material Material_days_active_f6567c0e_14 ran in 5.288774541s
+
+2024-08-28T21:46:53.163-0500	INFO	base/material.go:740	Preparing material Material_first_seen_15934164_14
+
+2024-08-28T21:46:54.705-0500	INFO	base/material.go:822	Running material Material_first_seen_15934164_14
+
+2024-08-28T21:47:00.009-0500	INFO	base/material.go:881	Material Material_first_seen_15934164_14 ran in 5.3034365s
+
+2024-08-28T21:47:01.763-0500	INFO	base/material.go:740	Preparing material Material_user_lifespan_beaccb45_14
+
+2024-08-28T21:47:03.339-0500	INFO	base/material.go:822	Running material Material_user_lifespan_beaccb45_14
+
+2024-08-28T21:47:07.236-0500	INFO	base/material.go:881	Material Material_user_lifespan_beaccb45_14 ran in 3.896664625s
+
+2024-08-28T21:47:08.533-0500	INFO	base/material.go:740	Preparing material Material_user_feature_view_61a12954_14
+
+2024-08-28T21:47:09.339-0500	INFO	base/material.go:822	Running material Material_user_feature_view_61a12954_14
+
+2024-08-28T21:47:10.213-0500	INFO	base/material.go:881	Material Material_user_feature_view_61a12954_14 ran in 874.14475ms
+
+2024-08-28T21:47:11.596-0500	INFO	base/material.go:740	Preparing material Material_features_by_user_id_d8296b37_14
+
+2024-08-28T21:47:12.411-0500	INFO	base/material.go:822	Running material Material_features_by_user_id_d8296b37_14
+
+2024-08-28T21:47:13.594-0500	INFO	base/material.go:881	Material Material_features_by_user_id_d8296b37_14 ran in 1.183185625s
+
+2024-08-28T21:54:14.227-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:54:14.273-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:54:14.317-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:54:17.391-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 15'.
+
+2024-08-28T21:54:18.650-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T21:54:18.781-0500	INFO	retention/cleanup.go:140	26 material run results found
+
+2024-08-28T21:54:18.781-0500	INFO	retention/cleanup.go:154	26 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T21:54:21.506-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T21:54:21.627-0500	INFO	retention/cleanup.go:140	26 material run results found
+
+2024-08-28T21:54:21.628-0500	INFO	retention/cleanup.go:154	26 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T21:54:21.628-0500	INFO	retention/cleanup.go:84	starting to run purge
+
+2024-08-28T21:54:21.793-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_14 }
+
+2024-08-28T21:54:22.925-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_14 }
+
+2024-08-28T21:54:23.367-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_14 }
+
+2024-08-28T21:54:23.537-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_14_INTERNAL_MAPPING }
+
+2024-08-28T21:54:23.763-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_14_INTERNAL_EDGES }
+
+2024-08-28T21:54:24.801-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_14 }
+
+2024-08-28T21:54:24.878-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_14_INTERNAL_MAPPING }
+
+2024-08-28T21:54:24.960-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_14_INTERNAL_EDGES }
+
+2024-08-28T21:54:25.470-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_VAR_TABLE_9494959F_14 }
+
+2024-08-28T21:54:26.008-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_VAR_TABLE_9494959F_14 }
+
+2024-08-28T21:54:26.603-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_A2EFAD7C_14 }
+
+2024-08-28T21:54:27.255-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_A2EFAD7C_14 }
+
+2024-08-28T21:54:30.214-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_F8AD61B7_14 }
+
+2024-08-28T21:54:30.895-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_F8AD61B7_14 }
+
+2024-08-28T21:54:42.593-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_61A12954_14 }
+
+2024-08-28T21:54:43.270-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_61A12954_14 }
+
+2024-08-28T21:54:43.603-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_D8296B37_14 }
+
+2024-08-28T21:54:44.045-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_D8296B37_14 }
+
+2024-08-28T21:54:44.278-0500	INFO	retention/cleanup.go:103	purging complete
+
+2024-08-28T21:55:20.691-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:55:20.734-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:55:20.779-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:55:23.390-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 16'.
+
+2024-08-28T21:55:32.740-0500	INFO	base/model.go:711	Compiled material. Material_rsTracks_var_table_e3351b8c_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.743-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:55:32.748-0500	INFO	base/model.go:711	Compiled material. Material_user_id_stitcher_ed62a9a5_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.749-0500	INFO	base/model.go:711	Compiled material. Material_user_id_stitcher_var_table_9494959f_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.751-0500	INFO	base/model.go:711	Compiled material. Material_user_all_a2efad7c_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.754-0500	INFO	base/model.go:711	Compiled material. Material_user_main_id_52ab7ba6_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.757-0500	INFO	base/model.go:711	Compiled material. Material_user_var_table_f8ad61b7_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.761-0500	INFO	base/model.go:711	Compiled material. Material_id_type_email_count_62739fed_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.765-0500	INFO	base/model.go:711	Compiled material. Material_last_seen_0c50fa88_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.769-0500	INFO	base/model.go:711	Compiled material. Material_days_active_f6567c0e_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.772-0500	INFO	base/model.go:711	Compiled material. Material_first_seen_15934164_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.775-0500	INFO	base/model.go:711	Compiled material. Material_user_lifespan_beaccb45_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.777-0500	INFO	base/model.go:711	Compiled material. Material_user_feature_view_e247d55b_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:32.780-0500	INFO	base/model.go:711	Compiled material. Material_features_by_user_id_93b174c5_16 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/16/compile. 
+
+
+2024-08-28T21:55:33.548-0500	INFO	base/material.go:740	Preparing material Material_rsTracks_var_table_e3351b8c_16
+
+2024-08-28T21:55:34.176-0500	INFO	base/material.go:822	Running material Material_rsTracks_var_table_e3351b8c_16
+
+2024-08-28T21:55:36.664-0500	INFO	base/material.go:881	Material Material_rsTracks_var_table_e3351b8c_16 ran in 2.487394167s
+
+2024-08-28T21:55:37.869-0500	INFO	base/material.go:740	Preparing material Material_user_id_stitcher_ed62a9a5_16
+
+2024-08-28T21:55:38.628-0500	INFO	base/material.go:822	Running material Material_user_id_stitcher_ed62a9a5_16
+
+2024-08-28T21:55:38.639-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T21:55:54.716-0500	INFO	base/material.go:881	Material Material_user_id_stitcher_ed62a9a5_16 ran in 16.087331708s
+
+2024-08-28T21:55:56.851-0500	INFO	base/material.go:740	Preparing material Material_user_all_a2efad7c_16
+
+2024-08-28T21:55:57.735-0500	INFO	base/material.go:822	Running material Material_user_all_a2efad7c_16
+
+2024-08-28T21:55:58.854-0500	INFO	base/material.go:881	Material Material_user_all_a2efad7c_16 ran in 1.117968583s
+
+2024-08-28T21:56:00.738-0500	INFO	base/material.go:740	Preparing material Material_user_main_id_52ab7ba6_16
+
+2024-08-28T21:56:02.477-0500	INFO	base/material.go:822	Running material Material_user_main_id_52ab7ba6_16
+
+2024-08-28T21:56:06.838-0500	INFO	base/material.go:881	Material Material_user_main_id_52ab7ba6_16 ran in 4.360771458s
+
+2024-08-28T21:56:08.275-0500	INFO	base/material.go:740	Preparing material Material_user_id_stitcher_var_table_9494959f_16
+
+2024-08-28T21:56:08.788-0500	INFO	base/material.go:822	Running material Material_user_id_stitcher_var_table_9494959f_16
+
+2024-08-28T21:56:10.941-0500	INFO	base/material.go:881	Material Material_user_id_stitcher_var_table_9494959f_16 ran in 2.152860459s
+
+2024-08-28T21:56:12.312-0500	INFO	base/material.go:740	Preparing material Material_user_var_table_f8ad61b7_16
+
+2024-08-28T21:56:13.037-0500	INFO	base/material.go:822	Running material Material_user_var_table_f8ad61b7_16
+
+2024-08-28T21:56:14.827-0500	INFO	base/material.go:881	Material Material_user_var_table_f8ad61b7_16 ran in 1.790198959s
+
+2024-08-28T21:56:16.896-0500	INFO	base/material.go:740	Preparing material Material_first_seen_15934164_16
+
+2024-08-28T21:56:18.341-0500	INFO	base/material.go:822	Running material Material_first_seen_15934164_16
+
+2024-08-28T21:56:23.429-0500	INFO	base/material.go:881	Material Material_first_seen_15934164_16 ran in 5.087171667s
+
+2024-08-28T21:56:25.377-0500	INFO	base/material.go:740	Preparing material Material_id_type_email_count_62739fed_16
+
+2024-08-28T21:56:26.837-0500	INFO	base/material.go:822	Running material Material_id_type_email_count_62739fed_16
+
+2024-08-28T21:56:30.850-0500	INFO	base/material.go:881	Material Material_id_type_email_count_62739fed_16 ran in 4.012125083s
+
+2024-08-28T21:56:32.647-0500	INFO	base/material.go:740	Preparing material Material_last_seen_0c50fa88_16
+
+2024-08-28T21:56:34.339-0500	INFO	base/material.go:822	Running material Material_last_seen_0c50fa88_16
+
+2024-08-28T21:56:39.249-0500	INFO	base/material.go:881	Material Material_last_seen_0c50fa88_16 ran in 4.909634916s
+
+2024-08-28T21:56:40.835-0500	INFO	base/material.go:740	Preparing material Material_days_active_f6567c0e_16
+
+2024-08-28T21:56:42.344-0500	INFO	base/material.go:822	Running material Material_days_active_f6567c0e_16
+
+2024-08-28T21:56:46.996-0500	INFO	base/material.go:881	Material Material_days_active_f6567c0e_16 ran in 4.651889125s
+
+2024-08-28T21:56:48.591-0500	INFO	base/material.go:740	Preparing material Material_user_lifespan_beaccb45_16
+
+2024-08-28T21:56:50.052-0500	INFO	base/material.go:822	Running material Material_user_lifespan_beaccb45_16
+
+2024-08-28T21:56:53.637-0500	INFO	base/material.go:881	Material Material_user_lifespan_beaccb45_16 ran in 3.584880958s
+
+2024-08-28T21:56:54.818-0500	INFO	base/material.go:740	Preparing material Material_user_feature_view_e247d55b_16
+
+2024-08-28T21:56:55.561-0500	INFO	base/material.go:822	Running material Material_user_feature_view_e247d55b_16
+
+2024-08-28T21:56:56.404-0500	INFO	base/material.go:881	Material Material_user_feature_view_e247d55b_16 ran in 843.28925ms
+
+2024-08-28T21:56:57.630-0500	INFO	base/material.go:740	Preparing material Material_features_by_user_id_93b174c5_16
+
+2024-08-28T21:56:58.449-0500	INFO	base/material.go:822	Running material Material_features_by_user_id_93b174c5_16
+
+2024-08-28T21:56:59.579-0500	INFO	base/material.go:881	Material Material_features_by_user_id_93b174c5_16 ran in 1.129213208s
+
+2024-08-28T22:05:51.982-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:05:52.029-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:05:52.079-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:05:52.114-0500	ERROR	cleanup/materials.go:68	creating project api: loading project: could not create project: loading project: conflicting db name features_by_user_id found for model user/all/feature_view/features_by_user_id
+
+2024-08-28T22:06:18.524-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:06:18.568-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:06:18.615-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:06:21.173-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 17'.
+
+2024-08-28T22:06:22.457-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T22:06:22.627-0500	INFO	retention/cleanup.go:140	26 material run results found
+
+2024-08-28T22:06:22.628-0500	INFO	retention/cleanup.go:154	26 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T22:06:26.845-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T22:06:26.939-0500	INFO	retention/cleanup.go:140	26 material run results found
+
+2024-08-28T22:06:26.939-0500	INFO	retention/cleanup.go:154	26 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-28T22:06:26.939-0500	INFO	retention/cleanup.go:84	starting to run purge
+
+2024-08-28T22:06:27.387-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_16 }
+
+2024-08-28T22:06:27.984-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_16 }
+
+2024-08-28T22:06:28.509-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_16 }
+
+2024-08-28T22:06:28.669-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_16_INTERNAL_EDGES }
+
+2024-08-28T22:06:29.024-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_16_INTERNAL_MAPPING }
+
+2024-08-28T22:06:29.713-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_16 }
+
+2024-08-28T22:06:29.826-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_16_INTERNAL_EDGES }
+
+2024-08-28T22:06:30.172-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_16_INTERNAL_MAPPING }
+
+2024-08-28T22:06:30.603-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_A2EFAD7C_16 }
+
+2024-08-28T22:06:31.342-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_A2EFAD7C_16 }
+
+2024-08-28T22:06:34.156-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_VAR_TABLE_9494959F_16 }
+
+2024-08-28T22:06:34.759-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_VAR_TABLE_9494959F_16 }
+
+2024-08-28T22:06:35.528-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_F8AD61B7_16 }
+
+2024-08-28T22:06:36.074-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_F8AD61B7_16 }
+
+2024-08-28T22:06:47.403-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_E247D55B_16 }
+
+2024-08-28T22:06:47.961-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_FEATURE_VIEW_E247D55B_16 }
+
+2024-08-28T22:06:48.490-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_93B174C5_16 }
+
+2024-08-28T22:06:48.852-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_FEATURES_BY_USER_ID_93B174C5_16 }
+
+2024-08-28T22:06:49.080-0500	INFO	retention/cleanup.go:103	purging complete
+
+2024-08-28T22:07:10.305-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:07:10.347-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:07:10.394-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:07:13.490-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 18'.
+
+2024-08-28T22:07:23.085-0500	INFO	base/model.go:711	Compiled material. Material_rsTracks_var_table_e3351b8c_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.091-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:07:23.095-0500	INFO	base/model.go:711	Compiled material. Material_user_id_stitcher_ed62a9a5_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.097-0500	INFO	base/model.go:711	Compiled material. Material_user_all_a2efad7c_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.098-0500	INFO	base/model.go:711	Compiled material. Material_user_id_stitcher_var_table_9494959f_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.101-0500	INFO	base/model.go:711	Compiled material. Material_user_main_id_52ab7ba6_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.102-0500	INFO	base/model.go:711	Compiled material. Material_user_var_table_f8ad61b7_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.105-0500	INFO	base/model.go:711	Compiled material. Material_id_email_em2_count_59272fb4_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.108-0500	INFO	base/model.go:711	Compiled material. Material_first_seen_15934164_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.112-0500	INFO	base/model.go:711	Compiled material. Material_days_active_f6567c0e_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.116-0500	INFO	base/model.go:711	Compiled material. Material_last_seen_0c50fa88_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.117-0500	INFO	base/model.go:711	Compiled material. Material_user_users_with_valid_email_f285450d_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.120-0500	INFO	base/model.go:711	Compiled material. Material_user_lifespan_beaccb45_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.121-0500	INFO	base/model.go:711	Compiled material. Material_user_feature_view_4180f501_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.124-0500	INFO	base/model.go:711	Compiled material. Material_features_by_user_id_7ac7ef04_18 to /Users/chandu/dev/rudderlabs/pb/testing/snowflake-pb/output/dev/seq_no/18/compile. 
+
+
+2024-08-28T22:07:23.764-0500	INFO	base/material.go:740	Preparing material Material_rsTracks_var_table_e3351b8c_18
+
+2024-08-28T22:07:24.616-0500	INFO	base/material.go:822	Running material Material_rsTracks_var_table_e3351b8c_18
+
+2024-08-28T22:07:27.327-0500	INFO	base/material.go:881	Material Material_rsTracks_var_table_e3351b8c_18 ran in 2.710306s
+
+2024-08-28T22:07:28.618-0500	INFO	base/material.go:740	Preparing material Material_user_id_stitcher_ed62a9a5_18
+
+2024-08-28T22:07:29.337-0500	INFO	base/material.go:822	Running material Material_user_id_stitcher_ed62a9a5_18
+
+2024-08-28T22:07:29.342-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-28T22:07:46.489-0500	INFO	base/material.go:881	Material Material_user_id_stitcher_ed62a9a5_18 ran in 17.151618083s
+
+2024-08-28T22:07:48.844-0500	INFO	base/material.go:740	Preparing material Material_user_id_stitcher_var_table_9494959f_18
+
+2024-08-28T22:07:49.529-0500	INFO	base/material.go:822	Running material Material_user_id_stitcher_var_table_9494959f_18
+
+2024-08-28T22:07:53.509-0500	INFO	base/material.go:881	Material Material_user_id_stitcher_var_table_9494959f_18 ran in 3.980711334s
+
+2024-08-28T22:07:55.488-0500	INFO	base/material.go:740	Preparing material Material_user_main_id_52ab7ba6_18
+
+2024-08-28T22:07:56.999-0500	INFO	base/material.go:822	Running material Material_user_main_id_52ab7ba6_18
+
+2024-08-28T22:08:01.577-0500	INFO	base/material.go:881	Material Material_user_main_id_52ab7ba6_18 ran in 4.577599084s
+
+2024-08-28T22:08:02.745-0500	INFO	base/material.go:740	Preparing material Material_user_all_a2efad7c_18
+
+2024-08-28T22:08:03.279-0500	INFO	base/material.go:822	Running material Material_user_all_a2efad7c_18
+
+2024-08-28T22:08:04.648-0500	INFO	base/material.go:881	Material Material_user_all_a2efad7c_18 ran in 1.369443042s
+
+2024-08-28T22:08:05.923-0500	INFO	base/material.go:740	Preparing material Material_user_var_table_f8ad61b7_18
+
+2024-08-28T22:08:06.493-0500	INFO	base/material.go:822	Running material Material_user_var_table_f8ad61b7_18
+
+2024-08-28T22:08:08.120-0500	INFO	base/material.go:881	Material Material_user_var_table_f8ad61b7_18 ran in 1.626394167s
+
+2024-08-28T22:08:10.138-0500	INFO	base/material.go:740	Preparing material Material_id_email_em2_count_59272fb4_18
+
+2024-08-28T22:08:11.794-0500	INFO	base/material.go:822	Running material Material_id_email_em2_count_59272fb4_18
+
+2024-08-28T22:08:16.425-0500	INFO	base/material.go:881	Material Material_id_email_em2_count_59272fb4_18 ran in 4.630699416s
+
+2024-08-28T22:08:19.015-0500	INFO	base/material.go:740	Preparing material Material_last_seen_0c50fa88_18
+
+2024-08-28T22:08:20.828-0500	INFO	base/material.go:822	Running material Material_last_seen_0c50fa88_18
+
+2024-08-28T22:08:26.511-0500	INFO	base/material.go:881	Material Material_last_seen_0c50fa88_18 ran in 5.683097541s
+
+2024-08-28T22:08:30.249-0500	INFO	base/material.go:740	Preparing material Material_first_seen_15934164_18
+
+2024-08-28T22:08:31.928-0500	INFO	base/material.go:822	Running material Material_first_seen_15934164_18
+
+2024-08-28T22:08:37.019-0500	INFO	base/material.go:881	Material Material_first_seen_15934164_18 ran in 5.090583125s
+
+2024-08-28T22:08:39.097-0500	INFO	base/material.go:740	Preparing material Material_days_active_f6567c0e_18
+
+2024-08-28T22:08:40.696-0500	INFO	base/material.go:822	Running material Material_days_active_f6567c0e_18
+
+2024-08-28T22:08:46.019-0500	INFO	base/material.go:881	Material Material_days_active_f6567c0e_18 ran in 5.322919917s
+
+2024-08-28T22:08:47.318-0500	INFO	base/material.go:740	Preparing material Material_user_users_with_valid_email_f285450d_18
+
+2024-08-28T22:08:48.066-0500	INFO	base/material.go:822	Running material Material_user_users_with_valid_email_f285450d_18
+
+2024-08-28T22:08:49.299-0500	INFO	base/material.go:881	Material Material_user_users_with_valid_email_f285450d_18 ran in 1.23260375s
+
+2024-08-28T22:08:51.191-0500	INFO	base/material.go:740	Preparing material Material_user_lifespan_beaccb45_18
+
+2024-08-28T22:08:53.055-0500	INFO	base/material.go:822	Running material Material_user_lifespan_beaccb45_18
+
+2024-08-28T22:08:56.874-0500	INFO	base/material.go:881	Material Material_user_lifespan_beaccb45_18 ran in 3.818854041s
+
+2024-08-28T22:08:58.306-0500	INFO	base/material.go:740	Preparing material Material_user_feature_view_4180f501_18
+
+2024-08-28T22:08:58.946-0500	INFO	base/material.go:822	Running material Material_user_feature_view_4180f501_18
+
+2024-08-28T22:09:00.110-0500	INFO	base/material.go:881	Material Material_user_feature_view_4180f501_18 ran in 1.163978667s
+
+2024-08-28T22:09:01.687-0500	INFO	base/material.go:740	Preparing material Material_features_by_user_id_7ac7ef04_18
+
+2024-08-28T22:09:02.301-0500	INFO	base/material.go:822	Running material Material_features_by_user_id_7ac7ef04_18
+
+2024-08-28T22:09:03.715-0500	INFO	base/material.go:881	Material Material_features_by_user_id_7ac7ef04_18 ran in 1.413492167s
+
+2024-08-29T08:18:43.944-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-29T08:18:43.988-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-29T08:18:44.034-0500	WARN	base/material.go:452	this.DeRef with pre_existing as true can only be used with incremental models
+
+2024-08-29T08:18:47.072-0500	INFO	core/projectLoad.go:695	If this run gets interrupted, then in the future, you can resume via CLI commands(run, compile etc.) by passing '--seq_no 19'.
+
+2024-08-29T08:18:48.263-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-29T08:18:48.635-0500	INFO	retention/cleanup.go:140	28 material run results found
+
+2024-08-29T08:18:48.635-0500	INFO	retention/cleanup.go:154	28 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-29T08:19:02.376-0500	INFO	retention/cleanup.go:123	get material run results to purge for retentionConfig {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-29T08:19:02.506-0500	INFO	retention/cleanup.go:140	28 material run results found
+
+2024-08-29T08:19:02.506-0500	INFO	retention/cleanup.go:154	28 model run results found to be cleaned for retention config {srcUrl: , targetSchema: CHANDU2, rule: {value: 1, unit: millisecond}}
+
+2024-08-29T08:19:02.506-0500	INFO	retention/cleanup.go:84	starting to run purge
+
+2024-08-29T08:19:02.713-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_18 }
+
+2024-08-29T08:19:03.547-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_RSTRACKS_VAR_TABLE_E3351B8C_18 }
+
+2024-08-29T08:19:04.206-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_18 }
+
+2024-08-29T08:19:04.440-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_18_INTERNAL_EDGES }
+
+2024-08-29T08:19:04.569-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_18_INTERNAL_MAPPING }
+
+2024-08-29T08:19:05.223-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ID_STITCHER_ED62A9A5_18 }
+
+2024-08-29T08:19:05.393-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_18_INTERNAL_EDGES }
+
+2024-08-29T08:19:05.474-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_ED62A9A5_18_INTERNAL_MAPPING }
+
+2024-08-29T08:19:06.000-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_VAR_TABLE_9494959F_18 }
+
+2024-08-29T08:19:06.974-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_ID_STITCHER_VAR_TABLE_9494959F_18 }
+
+2024-08-29T08:19:10.034-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_A2EFAD7C_18 }
+
+2024-08-29T08:19:10.593-0500	INFO	retention/cleanup.go:200	deleted &{view MATERIAL_USER_ALL_A2EFAD7C_18 }
+
+2024-08-29T08:19:11.221-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_F8AD61B7_18 }
+
+2024-08-29T08:19:11.868-0500	INFO	retention/cleanup.go:200	deleted &{table MATERIAL_USER_VAR_TABLE_F8AD61B7_18 }
+
