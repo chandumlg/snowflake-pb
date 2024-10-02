@@ -3,53 +3,30 @@ models:
   - name: user_id_stitcher
     model_type: id_stitcher
     model_spec:
-      validity_time: 24h # 1 day
       entity_key: user
       edge_sources:
         - from: inputs/rsIdentifies
         - from: inputs/rsTracks
-
-#  - name: hcp_id_stitcher
-#      model_type: id_stitcher
-#      model_spec:
-#        validity_time: 24h
-#        entity_key: hcp
-#        edge_sources:
-#          - from: inputs/DMDInfo
-#          - from: inputs/LiveIntent
-#          - from: inputs/Throttle
-#          - from: inputs/DMDValidateHCP
-#          - from: inputs/ADRequest # Can be omitted if we don't want profiles with only cookie ID
-
-#  - name: user_profile
-#    model_type: feature_table_model
-#    model_spec:
-#      validity_time: 24h # 1 day
-#      entity_key: user
-#      features:
-#        - user_lifespan
-#        - days_active
-
 var_groups:
- - name: default_vars
-   entity_key: user
-   vars:
-     - entity_var:
-         name: first_seen
-         select: min(cast(timestamp as date))
-         from: inputs/rsTracks
-         is_feature: false
-     - entity_var:
-         name: last_seen
-         select: max(cast(timestamp as date))
-         from: inputs/rsTracks
-         is_feature: false
-     - entity_var:
-         name: user_lifespan
-         select: '{{user.Var("last_seen")}} - {{user.Var("first_seen")}}'
-         description: Life Time Value of a customer
-     - entity_var:
-         name: days_active
-         select: count(distinct cast(timestamp as date))
-         from: inputs/rsTracks
-         description: No. of days a customer was active
+  - name: default_vars
+    entity_key: user
+    vars:
+      - entity_var:
+          name: first_seen
+          select: min(cast(timestamp as date))
+          from: inputs/rsTracks
+          is_feature: false
+      - entity_var:
+          name: last_seen
+          select: max(cast(timestamp as date))
+          from: inputs/rsTracks
+          is_feature: false
+      - entity_var:
+          name: user_lifespan
+          select: '{{user.Var("last_seen")}} - {{user.Var("first_seen")}}'
+          description: Life Time Value of a customer
+      - entity_var:
+          name: days_active
+          select: count(distinct cast(timestamp as date))
+          from: inputs/rsTracks
+          description: No. of days a customer was active
