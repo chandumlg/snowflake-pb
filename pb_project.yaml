@@ -10,6 +10,15 @@ model_folders:
   - models
 # Entities in this project and their ids.
 
+
+3 files in remote
+I came to ide
+pushed 1 file from terminal
+Commit - says remote changed
+exit
+launch editor again - continue old session
+
+
 # The id types are inherited from the library package listed below.
 #  To add / extend filters, check out the section on extends in id_types in documentation.
 entities:
