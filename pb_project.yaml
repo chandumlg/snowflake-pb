@@ -8,6 +8,7 @@ connection: schandu2
 model_folders:
   - testmodels 
   - test models2
+  - asdflasjdfasdf
   - models
 # Entities in this project and their ids.
 
