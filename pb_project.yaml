@@ -36,3 +36,5 @@ id_types:
         value: "someexcludedvalue"
         
 retention_period: 3s
+python_requirements:
+  - profiles-rudderstack==0.16.*

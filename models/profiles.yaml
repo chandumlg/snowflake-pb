@@ -7,6 +7,15 @@ models:
       edge_sources:
         - from: inputs/rsIdentifies
         - from: inputs/rsTracks
+  - name: users_with_valid_email
+    model_type: entity_cohort
+    model_spec:
+      extends: user/all
+      filter_pipeline:
+        - type: exclude
+          value: "{{ user.Var('id_email_em2_count')}} >= 1"
+      feature_views:
+        name: users_with_valid_email_feature_view
 var_groups:
   - name: default_vars
     entity_key: user
@@ -30,3 +39,8 @@ var_groups:
           select: count(distinct cast(timestamp as date))
           from: inputs/rsTracks
           description: No. of days a customer was active
+      - entity_var:
+          name: id_email_em2_count
+          select: sum(case when other_id_type = 'email' and other_id = 'em2@e.com' then 1 else 0 end)
+          from: models/user_id_stitcher
+          description: Count of em2 emails
