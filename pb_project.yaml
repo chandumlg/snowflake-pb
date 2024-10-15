@@ -37,4 +37,4 @@ id_types:
 retention_period: 3s
 
 python_requirements:
-  -    profiles-rudderstack==0.18.2
+  -                         profiles-rudderstack==0.18.2
