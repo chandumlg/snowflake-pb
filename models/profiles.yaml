@@ -30,3 +30,8 @@ var_groups:
           select: count(distinct cast(timestamp as date))
           from: inputs/rsTracks
           description: No. of days a customer was active
+      - entity_var:
+          name: days_active1
+          select: count(distinct cast(timestamp as date))
+          from: inputs/rsTracks
+          description: No. of days a customer was active

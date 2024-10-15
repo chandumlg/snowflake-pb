@@ -21,9 +21,9 @@ entities:
     feature_views:
       using_ids:
         - id: user_id
-          name: features_by_user_id
+          name: features_by_user_id1
         - id: email
-          name: email_stitched_features
+          name: email_stitched_features1
 
 id_types:
   - name: user_id
