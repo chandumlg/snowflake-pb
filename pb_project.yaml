@@ -1,7 +1,7 @@
 # Project name
 name: sample_attribution
 # Project's yaml schema version
-schema_version: 80
+schema_version: 84
 # WH Connection to use.
 connection: schandu2
 # Model folders to use.
@@ -25,7 +25,6 @@ entities:
           name: features_by_user_id
         - id: email
           name: email_stitched_features
-
 id_types:
   - name: user_id
   - name: anonymous_id
@@ -34,7 +33,4 @@ id_types:
     filters:
       - type: exclude
         value: "someexcludedvalue"
-        
 retention_period: 3s
-python_requirements:
-  - profiles-rudderstack==0.16.*
