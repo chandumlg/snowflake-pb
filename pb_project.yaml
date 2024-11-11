@@ -1,7 +1,7 @@
 # Project name
 name: sample_attribution
 # Project's yaml schema version
-schema_version: 84
+schema_version: 80
 # WH Connection to use.
 connection: schandu2
 # Model folders to use.
@@ -33,6 +33,3 @@ id_types:
       - type: exclude
         value: "someexcludedvalue"
 retention_period: 3s
-
-python_requirements:
-  - profiles-rudderstack==0.18.4
