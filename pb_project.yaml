@@ -5,10 +5,9 @@ schema_version: 84
 # WH Connection to use.
 connection: schandu2
 # Model folders to use.
-model_folders:
+model_folders: 
   - models
-# Entities in this project and their ids.
-
+# Entities in this project and their ids. 
 # The id types are inherited from the library package listed below.
 #  To add / extend filters, check out the section on extends in id_types in documentation.
 entities:
@@ -22,9 +21,9 @@ entities:
     feature_views:
       using_ids:
         - id: user_id
-          name: features_by_user_id
+          name: features_by_user_id1
         - id: email
-          name: email_stitched_features
+          name: email_stitched_features1
 id_types:
   - name: user_id
   - name: anonymous_id
@@ -34,3 +33,6 @@ id_types:
       - type: exclude
         value: "someexcludedvalue"
 retention_period: 3s
+
+python_requirements:
+  - profiles-rudderstack==0.18.4
