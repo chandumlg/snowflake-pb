@@ -16,10 +16,27 @@ models:
           value: "{{ user.Var('id_email_em2_count')}} >= 1"
       feature_views:
         name: users_with_valid_email_feature_view
+  - name: users_with_invalid_email
+    model_type: entity_cohort
+    model_spec:
+      extends: user/all
+      filter_pipeline:
+        - type: exclude
+          value: "{{ user.Var('id_email_em2_count')}} < 1"
+      feature_views:
+        name: users_with_invalid_email_feature_view
 var_groups:
   - name: default_vars
     entity_key: user
     vars:
+      - input_var:
+          name: CONTEXT_PAGE_URL_IV
+          select: CONTEXT_PAGE_URL
+          from: inputs/rsTracks
+      - entity_var:
+          name: CONTEXT_PAGE_URL_EV
+          select: any_value({{rsTracks.Var("CONTEXT_PAGE_URL_IV")}})
+          from: inputs/rsTracks
       - entity_var:
           name: first_seen
           select: min(cast(timestamp as date))
@@ -44,3 +61,21 @@ var_groups:
           select: sum(case when other_id_type = 'email' and other_id = 'em2@e.com' then 1 else 0 end)
           from: models/user_id_stitcher
           description: Count of em2 emails
+      - entity_var:
+          name: hcpcs_code
+          select: ARRAY_DISTINCT(ARRAY_FLATTEN(ARRAY_AGG(HCPCS_CODES)))
+          from: models/sampledata
+          is_feature: true 
+  - name: users_with_valid_email_cohort_vars
+    entity_cohort: models/users_with_valid_email
+    vars:
+      - entity_var:
+          name: first_seen
+          select: '{{user.Var("first_seen")}}'
+  - name: users_with_invalid_email_cohort_vars
+    entity_cohort: models/users_with_invalid_email
+    vars:
+      - entity_var:
+          name: first_seen
+          select: '{{user.Var("first_seen")}}'
+          

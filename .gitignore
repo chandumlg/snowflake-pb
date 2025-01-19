@@ -1,2 +1,7 @@
 output
 logs
+lib
+myenv
+migrations
+graph_outputs
+logs.log

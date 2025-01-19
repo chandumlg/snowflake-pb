@@ -1,0 +1,20 @@
+models:
+  - name: sampledata
+    model_type: sql_template
+    model_spec:
+      materialization:
+        output_type: ephemeral
+        run_type: discrete
+      single_sql: |
+        WITH sample_data AS (
+          SELECT 'u1' as user_id, ARRAY_CONSTRUCT('A1', 'B1') as HCPCS_CODES
+          UNION ALL
+          SELECT 'u1' as user_id, ARRAY_CONSTRUCT('B1', 'C1')
+          UNION ALL
+          SELECT 'u1' as user_id, ARRAY_CONSTRUCT('A1', 'A1')
+        )
+        select * from sample_data
+      ids:
+        - select: user_id
+          type: user_id
+          entity: user
