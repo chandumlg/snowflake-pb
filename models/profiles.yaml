@@ -66,16 +66,16 @@ var_groups:
           select: ARRAY_DISTINCT(ARRAY_FLATTEN(ARRAY_AGG(HCPCS_CODES)))
           from: models/sampledata
           is_feature: true 
-  - name: users_with_valid_email_cohort_vars
-    entity_cohort: models/users_with_valid_email
-    vars:
-      - entity_var:
-          name: first_seen
-          select: '{{user.Var("first_seen")}}'
-  - name: users_with_invalid_email_cohort_vars
-    entity_cohort: models/users_with_invalid_email
-    vars:
-      - entity_var:
-          name: first_seen
-          select: '{{user.Var("first_seen")}}'
+  # - name: users_with_valid_email_cohort_vars
+  #   entity_cohort: models/users_with_valid_email
+  #   vars:
+  #     - entity_var:
+  #         name: first_seen
+  #         select: '{{user.Var("first_seen")}}'
+  # - name: users_with_invalid_email_cohort_vars
+  #   entity_cohort: models/users_with_invalid_email
+  #   vars:
+  #     - entity_var:
+  #         name: first_seen
+  #         select: '{{user.Var("first_seen")}}'
           
