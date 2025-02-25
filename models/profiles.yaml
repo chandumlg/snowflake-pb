@@ -11,6 +11,7 @@ models:
     model_type: entity_cohort
     model_spec:
       extends: user/all
+      time_grain: "day"
       filter_pipeline:
         - type: exclude
           value: "{{ user.Var('id_email_em2_count')}} >= 1"
@@ -65,11 +66,12 @@ var_groups:
           name: hcpcs_code
           select: ARRAY_DISTINCT(ARRAY_FLATTEN(ARRAY_AGG(HCPCS_CODES)))
           from: models/sampledata
-          is_feature: true 
+          is_feature: true
   - name: users_with_valid_email_cohort_vars
     entity_cohort: models/users_with_valid_email
     vars:
       - entity_var:
+          time_grain: "day"
           name: first_seen
           select: '{{user.Var("first_seen")}}'
   - name: users_with_invalid_email_cohort_vars
@@ -78,4 +80,3 @@ var_groups:
       - entity_var:
           name: first_seen
           select: '{{user.Var("first_seen")}}'
-          

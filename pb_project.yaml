@@ -1,7 +1,7 @@
 # Project name
 name: sample_attribution
 # Project's yaml schema version
-schema_version: 84
+schema_version: 88
 #python_requirements:
 #- profiles_mlcorelib
 # WH Connection to use.
@@ -35,3 +35,4 @@ id_types:
       - type: exclude
         value: "someexcludedvalue"
 retention_period: 3s
+default_time_grain: tick
