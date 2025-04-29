@@ -66,6 +66,11 @@ var_groups:
           select: ARRAY_DISTINCT(ARRAY_FLATTEN(ARRAY_AGG(HCPCS_CODES)))
           from: models/sampledata
           is_feature: true 
+      - entity_var:
+          name: cohort_tag
+          select: array_agg(cohort_tags)
+          from: models/cohort_membership
+          description: This feature outputs an array of tags that represent what cohort each user is in
   # - name: users_with_valid_email_cohort_vars
   #   entity_cohort: models/users_with_valid_email
   #   vars:

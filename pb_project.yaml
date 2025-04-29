@@ -5,7 +5,7 @@ schema_version: 84
 #python_requirements:
 #- profiles_mlcorelib
 # WH Connection to use.
-connection: schandu3
+connection: schandukeypair
 # Model folders to use.
 model_folders:
   - models
@@ -14,6 +14,7 @@ model_folders:
 #  To add / extend filters, check out the section on extends in id_types in documentation.
 entities:
   - name: user
+    id_column_name: PROFILE_ID
     id_stitcher: models/user_id_stitcher
     id_types:
       - user_id
@@ -23,9 +24,9 @@ entities:
     feature_views:
       using_ids:
         - id: user_id
-          name: features_by_user_id1
+          name: features_by_user_id
         - id: email
-          name: email_stitched_features1
+          name: email_stitched_features
 id_types:
   - name: user_id
   - name: anonymous_id

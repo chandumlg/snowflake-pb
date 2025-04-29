@@ -18,3 +18,41 @@ models:
         - select: user_id
           type: user_id
           entity: user
+
+  - name: cohort_membership
+    model_type: sql_template
+    model_spec:
+      materialization:
+        output_type: table
+        run_type: discrete
+      single_sql: |
+        {% with valid_email_users = this.DeRef("models/users_with_valid_email") invalid_email_users = this.DeRef("models/users_with_invalid_email") all_users = this.DeRef("user/ALL")%}
+              ,t1 as (
+                        select PROFILE_ID,
+                              'all_users' as cohort_tag
+                          from {{all_users}} a
+                
+                union all
+                
+                        select PROFILE_ID,
+                              'valid_email_users' as cohort_tag
+                          from {{all_users}} a
+                      where exists(select 1 from {{valid_email_users}} b where a.profile_id = b.PROFILE_ID)
+                
+                union all
+                        
+                        select PROFILE_ID,
+                              'invalid_email_users' as cohort_tag
+                          from {{all_users}} a
+                      where exists(select 1 from {{invalid_email_users}} b where a.profile_id = b.PROFILE_ID)
+
+                )
+
+              select PROFILE_ID,
+              cohort_tag as cohort_tags
+              from t1
+        {% endwith %}
+      ids:
+        - select: profile_id
+          type: rudder_id
+          entity: user
