@@ -14,7 +14,7 @@ model_folders:
 #  To add / extend filters, check out the section on extends in id_types in documentation.
 entities:
   - name: user
-    id_column_name: PROFILE_ID
+    id_column_name: profile_id
     id_stitcher: models/user_id_stitcher
     id_types:
       - user_id
