@@ -66,6 +66,10 @@ var_groups:
   - name: default_vars
     entity_key: user
     vars:
+      - entity_var:
+          name: count_ids
+          select: count(distinct({{rsIdentifies.Var("user_user_id")}}))
+          from: inputs/rsIdentifies
       - input_var:
           name: CONTEXT_PAGE_URL_IV
           select: CONTEXT_PAGE_URL
