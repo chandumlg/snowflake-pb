@@ -5,7 +5,7 @@ models:
     model_spec:
       entity_key: user
       edge_sources:
-        - from: inputs/rsIdentifies
+        - from: inputs/rsidentifies
         - from: inputs/rsTracks
   - name: users_with_valid_email
     model_type: entity_cohort
@@ -86,7 +86,7 @@ var_groups:
       - entity_var:
           name: last_seen
           select: max(cast(timestamp as date))
-          from: inputs/rsTracks
+          from: inputs/rstracks
           is_feature: false
       - entity_var:
           name: user_lifespan

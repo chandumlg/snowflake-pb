@@ -21,10 +21,10 @@ entities:
       - temp_id
       - anonymous_id
       - email
-    # feature_views:
-    #   using_ids:
-    #     - id: user_id
-    #       name: features_by_user_id
+    feature_views:
+      using_ids:
+        - id: user_id
+          name: features_by_user_id
     #     - id: email
     #       name: email_stitched_features
     #   features:
