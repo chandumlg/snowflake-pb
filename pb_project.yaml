@@ -34,6 +34,8 @@ id_types:
   - name: user_id
   - name: anonymous_id
   - name: email
+    maximum_edges:
+      - user_id: 1
   - name: temp_id
     filters:
       - type: exclude
