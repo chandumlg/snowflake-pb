@@ -105,6 +105,11 @@ var_groups:
           from: models/user_id_stitcher
           description: Count of em2 emails
       - entity_var:
+          name: id_email_em3_count
+          select: sum(case when other_id_type = 'email' and other_id = 'em2@e.com' then 1 else 0 end)
+          from: models/user_id_stitcher
+          description: Count of em2 emails
+      - entity_var:
           name: hcpcs_code
           select: ARRAY_DISTINCT(ARRAY_FLATTEN(ARRAY_AGG(HCPCS_CODES)))
           from: models/sampledata
