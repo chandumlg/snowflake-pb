@@ -4,7 +4,7 @@ name: sample_attribution
 schema_version: 96
 allow_beta: true
 python_requirements:
-  - profiles_rudderstack==0.25.0b5
+  - profiles_rudderstack==0.25.0b7
 # WH Connection to use.
 connection: schandukeypair
 # Model folders to use.
