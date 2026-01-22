@@ -18,7 +18,6 @@ models:
         - select: user_id
           type: user_id
           entity: user
-
   - name: cohort_membership
     model_type: sql_template
     model_spec:
@@ -31,16 +30,16 @@ models:
                         select PROFILE_ID,
                               'all_users' as cohort_tag
                           from {{all_users}} a
-                
+
                 union all
-                
+
                         select PROFILE_ID,
                               'valid_email_users' as cohort_tag
                           from {{all_users}} a
                       where exists(select 1 from {{valid_email_users}} b where a.profile_id = b.PROFILE_ID)
-                
+
                 union all
-                        
+
                         select PROFILE_ID,
                               'invalid_email_users' as cohort_tag
                           from {{all_users}} a

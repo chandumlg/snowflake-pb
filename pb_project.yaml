@@ -1,43 +1,53 @@
 # Project name
 name: sample_attribution
 # Project's yaml schema version
-schema_version: 84
+schema_version: 96
+allow_beta: true
 python_requirements:
-  - profiles_rudderstack==0.24.2
+  - profiles_rudderstack==0.25.0b5
 # WH Connection to use.
 connection: schandukeypair
 # Model folders to use.
 model_folders:
-  - models
+    - models
 # Entities in this project and their ids.
 # The id types are inherited from the library package listed below.
 #  To add / extend filters, check out the section on extends in id_types in documentation.
 entities:
-  - name: user
-    id_column_name: profile_id
-    id_stitcher: models/user_id_stitcher
-    id_types:
-      - user_id
-      - temp_id
-      - anonymous_id
-      - email
-    feature_views:
-      using_ids:
-        - id: user_id
-          name: features_by_user_id
-    #     - id: email
-    #       name: email_stitched_features
-    #   features:
-    #     - from: models/user_feature_table
-    #       include: [feature_rudder_id, cohort_tag]
+    - name: user
+      id_column_name: profile_id
+      id_stitcher: models/user_id_stitcher
+      id_types:
+        - user_id
+        - temp_id
+        - anonymous_id
+        - email
+      feature_views:
+        using_ids:
+            - id: user_id
+              name: features_by_user_id
+              #     - id: email
+              #       name: email_stitched_features
+              #   features:
+              #     - from: models/user_feature_table
+              #       include: [feature_rudder_id, cohort_tag]
 id_types:
-  - name: user_id
-  - name: anonymous_id
-  - name: email
-    maximum_edges:
-      - user_id: 1
-  - name: temp_id
-    filters:
-      - type: exclude
-        value: "someexcludedvalue"
+    - name: user_id
+      filters:
+        - type: exclude
+          sql:
+            select: anonymous_id
+            from: inputs/rsTracks
+    - name: anonymous_id
+    - name: email
+      maximum_edges:
+        - user_id: 1
+    - name: temp_id
+      filters:
+        - type: exclude
+          value: "someexcludedvalue"
+        - type: exclude
+          sql:
+            select: anonymous_id
+            from: inputs/rsTracks
 retention_period: 3s

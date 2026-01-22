@@ -16,8 +16,8 @@ models:
       filter_pipeline:
         - type: exclude
           value: "{{ user.Var('id_email_em2_count')}} >= 1"
-      # feature_views:
-      #   name: users_with_valid_email_feature_view
+          # feature_views:
+          #   name: users_with_valid_email_feature_view
   - name: users_with_invalid_email
     model_type: entity_cohort
     model_spec:
@@ -27,31 +27,26 @@ models:
           value: "{{ user.Var('id_email_em2_count')}} < 1"
       # feature_views:
       #   name: users_with_invalid_email_feature_view
-
   - name: users_feature_view_with_user_id_model
     model_type: feature_view
     model_spec:
       entity_key: user
-      feature_views:
-        using_ids:
-          - id: user_id
-            name: user_features_with_user_id
-        features:
-          - from: models/user_feature_table
-            include: [feature_rudder_id, days_active, user_lifespan, hcpcs_code]
-
+      using_ids:
+        - id: user_id
+          name: user_features_with_user_id
+      features:
+        - from: models/user_feature_table
+          include: [feature_rudder_id, days_active, user_lifespan, hcpcs_code]
   - name: users_feature_view_with_email_model
     model_type: feature_view
     model_spec:
       entity_key: user
-      feature_views:
-        using_ids:
-          - id: email
-            name: user_features_with_email
-        features:
-          - from: models/user_feature_table
-            include: [feature_rudder_id, cohort_tag]
-
+      using_ids:
+        - id: email
+          name: user_features_with_email
+      features:
+        - from: models/user_feature_table
+          include: [feature_rudder_id, cohort_tag]
   - name: user_feature_table
     model_type: feature_table_model
     model_spec:
@@ -108,27 +103,26 @@ var_groups:
           name: hcpcs_code
           select: ARRAY_DISTINCT(ARRAY_FLATTEN(ARRAY_AGG(HCPCS_CODES)))
           from: models/sampledata
-          is_feature: true 
+          is_feature: true
       - entity_var: # main id as a feature
           name: feature_rudder_id
           select: ANY_VALUE(profile_id)
           from: models/user_id_stitcher
-          is_feature: true 
+          is_feature: true
       - entity_var:
           name: cohort_tag
           select: array_agg(cohort_tags)
           from: models/cohort_membership
           description: This feature outputs an array of tags that represent what cohort each user is in
-  # - name: users_with_valid_email_cohort_vars
-  #   entity_cohort: models/users_with_valid_email
-  #   vars:
-  #     - entity_var:
-  #         name: first_seen
-  #         select: '{{user.Var("first_seen")}}'
-  # - name: users_with_invalid_email_cohort_vars
-  #   entity_cohort: models/users_with_invalid_email
-  #   vars:
-  #     - entity_var:
-  #         name: first_seen
-  #         select: '{{user.Var("first_seen")}}'
-          
+# - name: users_with_valid_email_cohort_vars
+#   entity_cohort: models/users_with_valid_email
+#   vars:
+#     - entity_var:
+#         name: first_seen
+#         select: '{{user.Var("first_seen")}}'
+# - name: users_with_invalid_email_cohort_vars
+#   entity_cohort: models/users_with_invalid_email
+#   vars:
+#     - entity_var:
+#         name: first_seen
+#         select: '{{user.Var("first_seen")}}'

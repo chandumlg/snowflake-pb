@@ -5,3 +5,5 @@ myenv
 migrations
 graph_outputs
 logs.log
+original_project_folder
+.venv
