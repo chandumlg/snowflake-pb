@@ -4,7 +4,7 @@
 
 After installing PB and configuring your connections, you need to change inputs.yaml with names of your source tables. Once that is done, please mention their names as edge_sources in profiles.yaml and define specs for creating ID stitcher / feature table. 
 
-Use this command to validate that your project shall be able to access the warehouse specified in connections and create material objects there..
+Use this command to validate that your project shall be able to access the warehouse specified in connections and create material objects there....
 
 ```shell script
 pb validate access
