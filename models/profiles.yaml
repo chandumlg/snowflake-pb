@@ -31,22 +31,22 @@ models:
     model_type: feature_view
     model_spec:
       entity_key: user
-      using_ids:
-        - id: user_id
-          name: user_features_with_user_id
-      features:
-        - from: models/user_feature_table
-          include: [feature_rudder_id, days_active, user_lifespan, hcpcs_code]
+      # using_ids:
+      #   - id: user_id
+      #     name: user_features_with_user_id
+      # features:
+      #   - from: models/user_feature_table
+      #     include: [feature_rudder_id, days_active, user_lifespan, hcpcs_code]
   - name: users_feature_view_with_email_model
     model_type: feature_view
     model_spec:
       entity_key: user
-      using_ids:
-        - id: email
-          name: user_features_with_email
-      features:
-        - from: models/user_feature_table
-          include: [feature_rudder_id, cohort_tag]
+      # using_ids:
+      #   - id: email
+      #     name: user_features_with_email
+      # features:
+      #   - from: models/user_feature_table
+      #     include: [feature_rudder_id, cohort_tag]
   - name: user_feature_table
     model_type: feature_table_model
     model_spec:
