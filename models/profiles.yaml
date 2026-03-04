@@ -64,7 +64,7 @@ var_groups:
     entity_key: user
     vars:
       - entity_var:
-          name: count_ids
+          name: count_ids1
           select: count(distinct({{rsIdentifies.Var("user_user_id")}}))
           from: inputs/rsIdentifies
       - input_var:
