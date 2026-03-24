@@ -25,8 +25,8 @@ models:
       filter_pipeline:
         - type: exclude
           value: "{{ user.Var('id_email_em2_count')}} < 1"
-      # feature_views:
-      #   name: users_with_invalid_email_feature_view
+          # feature_views:
+          #   name: users_with_invalid_email_feature_view
   - name: users_feature_view_with_user_id_model
     model_type: feature_view
     model_spec:
